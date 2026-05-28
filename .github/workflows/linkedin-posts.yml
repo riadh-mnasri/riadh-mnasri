@@ -14,13 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch LinkedIn posts from RSS
+      - name: Fetch LinkedIn posts from RSS.app JSON feed
         env:
           LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
         run: |
           python3 << 'EOF'
           import urllib.request
-          import xml.etree.ElementTree as ET
+          import json
           import re
           import os
           from datetime import datetime
@@ -31,29 +31,26 @@ jobs:
               exit(0)
 
           try:
-              with urllib.request.urlopen(rss_url, timeout=15) as resp:
-                  xml_data = resp.read()
+              req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=15) as resp:
+                  data = json.load(resp)
           except Exception as e:
               print(f"Failed to fetch RSS: {e}")
               exit(0)
 
-          root = ET.fromstring(xml_data)
-          ns = {"atom": "http://www.w3.org/2005/Atom"}
-          items = root.findall(".//item") or root.findall(".//atom:entry", ns)
-
+          items = data.get("items", [])[:5]
           posts = []
-          for item in items[:5]:
-              title = item.findtext("title") or item.findtext("atom:title", namespaces=ns) or ""
-              link  = item.findtext("link")  or item.findtext("atom:link",  namespaces=ns) or ""
-              date  = item.findtext("pubDate") or item.findtext("atom:updated", namespaces=ns) or ""
 
-              title = title.strip()[:100]
+          for item in items:
+              title = (item.get("title") or item.get("content_text") or "")[:120].strip()
+              link  = item.get("url") or item.get("external_url") or ""
+              date  = item.get("date_published") or ""
+
               if not title:
                   continue
 
-              # Format date
               try:
-                  dt = datetime.strptime(date[:16], "%a, %d %b %Y")
+                  dt = datetime.fromisoformat(date[:19])
                   date_str = dt.strftime("%d %b %Y")
               except Exception:
                   date_str = date[:10] if date else ""
@@ -61,7 +58,7 @@ jobs:
               posts.append(f"- [{title}]({link}) — {date_str}")
 
           if not posts:
-              print("No posts found in RSS feed.")
+              print("No posts found in feed.")
               exit(0)
 
           block = "\n".join(posts)
