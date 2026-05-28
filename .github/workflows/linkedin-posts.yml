@@ -1,12 +1,19 @@
-name: Update LinkedIn Posts
+name: Add LinkedIn Post
 
 on:
-  schedule:
-    - cron: '0 7 * * *'   # Every day at 7h UTC (9h Paris)
-  workflow_dispatch:        # Manual trigger from GitHub UI
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Titre / début du post LinkedIn'
+        required: true
+        type: string
+      url:
+        description: 'URL du post LinkedIn'
+        required: true
+        type: string
 
 jobs:
-  update-posts:
+  add-post:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,58 +21,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch LinkedIn posts from RSS.app JSON feed
-        env:
-          LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
+      - name: Prepend post to README
         run: |
           python3 << 'EOF'
-          import urllib.request
-          import json
           import re
-          import os
           from datetime import datetime
 
-          rss_url = os.environ.get("LINKEDIN_RSS_URL", "")
-          if not rss_url:
-              print("LINKEDIN_RSS_URL secret not set — skipping.")
-              exit(0)
+          title = """${{ github.event.inputs.title }}"""[:120].strip()
+          url   = """${{ github.event.inputs.url }}""".strip()
+          today = datetime.utcnow().strftime("%d %b %Y")
 
-          try:
-              req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
-              with urllib.request.urlopen(req, timeout=15) as resp:
-                  data = json.load(resp)
-          except Exception as e:
-              print(f"Failed to fetch RSS: {e}")
-              exit(0)
-
-          items = data.get("items", [])[:5]
-          posts = []
-
-          for item in items:
-              title = (item.get("title") or item.get("content_text") or "")[:120].strip()
-              link  = item.get("url") or item.get("external_url") or ""
-              date  = item.get("date_published") or ""
-
-              if not title:
-                  continue
-
-              try:
-                  dt = datetime.fromisoformat(date[:19])
-                  date_str = dt.strftime("%d %b %Y")
-              except Exception:
-                  date_str = date[:10] if date else ""
-
-              posts.append(f"- [{title}]({link}) — {date_str}")
-
-          if not posts:
-              print("No posts found in feed.")
-              exit(0)
-
-          block = "\n".join(posts)
-          new_section = f"<!-- LINKEDIN-POSTS:START -->\n{block}\n<!-- LINKEDIN-POSTS:END -->"
+          new_entry = f"- [{title}]({url}) — {today}"
 
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
+
+          # Extract current posts between markers
+          match = re.search(
+              r"<!-- LINKEDIN-POSTS:START -->\n(.*?)<!-- LINKEDIN-POSTS:END -->",
+              content, re.DOTALL
+          )
+
+          existing = match.group(1).strip() if match else ""
+
+          # Remove placeholder text if present
+          if "s'afficheront ici" in existing:
+              existing = ""
+
+          # Keep only last 4 posts + the new one = 5 max
+          lines = [l for l in existing.splitlines() if l.strip().startswith("-")][:4]
+          all_posts = "\n".join([new_entry] + lines)
+
+          new_section = f"<!-- LINKEDIN-POSTS:START -->\n{all_posts}\n<!-- LINKEDIN-POSTS:END -->"
 
           updated = re.sub(
               r"<!-- LINKEDIN-POSTS:START -->.*?<!-- LINKEDIN-POSTS:END -->",
@@ -74,21 +61,17 @@ jobs:
               flags=re.DOTALL
           )
 
-          if updated == content:
-              print("No changes.")
-              exit(0)
-
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(updated)
 
-          print(f"Updated README with {len(posts)} posts.")
+          print(f"Added: {new_entry}")
           EOF
 
-      - name: Commit & push if changed
+      - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet && echo "Nothing to commit." && exit 0
           git add README.md
-          git commit -m "chore: update LinkedIn posts [$(date +'%Y-%m-%d')]"
+          git commit -m "post: add LinkedIn post [$(date +'%Y-%m-%d')]"
           git push
