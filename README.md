@@ -3,7 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Senior+Tech+Lead+%26+Architect+Java;20%2B+ans+d'exp%C3%A9rience;Spring+Boot+%C2%B7+Kotlin+%C2%B7+Microservices;AI+%26+Cloud+%7C+Claude+%C2%B7+AWS+%C2%B7+GCP;Open+to+missions+%F0%9F%9F%A2)](https://linkedin.com/in/riadhmnasri)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-7k%2B_followers-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
-[![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.com-black?style=flat-square&logo=vercel&logoColor=white)](https://my-portfolio-44v8hywvt-riadh-mnasris-projects.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.com-black?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)
 [![Blog](https://img.shields.io/badge/Blog-techpassionsharing.com-orange?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 [![Available](https://img.shields.io/badge/🟢_Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
 
@@ -172,7 +172,7 @@ Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybri
 **TJM : 600–900 €/j** · Missions longues durée · Remote / Hybride · Paris
 
 [![LinkedIn](https://img.shields.io/badge/Me_contacter_sur_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
-[![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://my-portfolio-44v8hywvt-riadh-mnasris-projects.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)
 [![Blog](https://img.shields.io/badge/Lire_mon_blog_tech-FF6B35?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 
 ---
