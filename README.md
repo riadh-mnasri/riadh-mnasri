@@ -73,6 +73,9 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 | Certification | Organisme | Année |
 |--------------|-----------|-------|
+| **Claude Code** | Anthropic | 2025 |
+| **Claude SubAgents** | Anthropic | 2025 |
+| **Développeur Augmenté par l'IA Générative** | SFEIR Institute | 2025 |
 | **Spring Certified Professional** | VMware | 2012 |
 | **Sun Certified Java Programmer (SCJP)** | Sun Microsystems | 2007 |
 | Software Architecture: Domain-Driven Design | LinkedIn Learning | 2021 |
