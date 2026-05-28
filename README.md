@@ -135,7 +135,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ## ✍️ Derniers posts LinkedIn
 
 <!-- LINKEDIN-POSTS:START -->
-*Les posts s'afficheront ici automatiquement après configuration du flux RSS.*
+- [On parle beaucoup d'agents Claude en ce moment, mais on confond souvent quatre concepts bien distincts : l'agent (la bou](https://www.linkedin.com/posts/riadhmnasri_llm-claude-agent-activity-7462241443160428544-RraE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOqAgUBBIHWxAWeQaSxUoJoUh2SDySQnkY) — 28 May 2026
 <!-- LINKEDIN-POSTS:END -->
 
 ---
