@@ -136,9 +136,11 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 <div align="center">
 
-![Riadh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=riadh-mnasri&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=riadh-mnasri&theme=github_dark)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=riadh-mnasri&theme=github_dark)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=riadh-mnasri&layout=compact&theme=dark&hide_border=true&langs_count=8)
+![Most Committed](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=riadh-mnasri&theme=github_dark)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=riadh-mnasri&theme=github_dark)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=riadh-mnasri&theme=dark&hide_border=true)
 
