@@ -1,8 +1,6 @@
 <div align="center">
 
-# Riadh MNASRI
-
-### Senior Tech Lead & Architect · Java · Kotlin · AI & Cloud
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Senior+Tech+Lead+%26+Architect+Java;20%2B+ans+d'exp%C3%A9rience;Spring+Boot+%C2%B7+Kotlin+%C2%B7+Microservices;AI+%26+Cloud+%7C+Claude+%C2%B7+AWS+%C2%B7+GCP;Open+to+missions+%F0%9F%9F%A2)](https://linkedin.com/in/riadhmnasri)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-7k%2B_followers-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
 [![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.com-black?style=flat-square&logo=vercel&logoColor=white)](https://my-portfolio-44v8hywvt-riadh-mnasris-projects.vercel.app/)
@@ -135,8 +133,8 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ## ✍️ Derniers posts LinkedIn
 
 <!-- LINKEDIN-POSTS:START -->
-- [Le métier de développeur évolue à vitesse grand V, et la transition vers le paradigme du développeur augmenté est désorm](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937-yTKq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOqAgUBBIHWxAWeQaSxUoJoUh2SDySQnkY) — 28 May 2026
-- [On parle beaucoup d'agents Claude en ce moment, mais on confond souvent quatre concepts bien distincts : l'agent (la bou](https://www.linkedin.com/posts/riadhmnasri_llm-claude-agent-activity-7462241443160428544-RraE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOqAgUBBIHWxAWeQaSxUoJoUh2SDySQnkY) — 28 May 2026
+- 🔗 [Le métier de développeur évolue à vitesse grand V, et la transition vers le…](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937) — *28 May 2026*
+- 🔗 [On parle beaucoup d'agents Claude en ce moment, mais on confond souvent quatre…](https://www.linkedin.com/posts/riadhmnasri_llm-claude-agent-activity-7462241443160428544-RraE) — *28 May 2026*
 <!-- LINKEDIN-POSTS:END -->
 
 ---
@@ -152,6 +150,16 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=riadh-mnasri&theme=github_dark)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=riadh-mnasri&theme=dark&hide_border=true)
+
+</div>
+
+---
+
+## 🏅 GitHub Trophies
+
+<div align="center">
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=riadh-mnasri&theme=darkhub&no-frame=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/riadh-mnasri)
 
 </div>
 
