@@ -60,6 +60,14 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
+## 🎓 Formation
+
+| Diplôme | École | Année |
+|---------|-------|-------|
+| **Executive Master — Stratégie de la Transformation Numérique** | 🏛️ **École Polytechnique** | 2024 |
+
+---
+
 ## 🏆 Certifications
 
 | Certification | Organisme | Année |
