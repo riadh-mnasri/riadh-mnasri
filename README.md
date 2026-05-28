@@ -159,7 +159,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=riadh-mnasri&theme=darkhub&no-frame=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/riadh-mnasri)
+[![Trophies](https://github-trophies.vercel.app/?username=riadh-mnasri&theme=darkhub&no-frame=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/riadh-mnasri)
 
 </div>
 
