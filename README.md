@@ -23,7 +23,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 - 🤖 **AI Tooling** : Claude API (Anthropic) · agents autonomes · Semantic Kernel · MCP
 - ☁️ **Cloud** : AWS · GCP · Terraform · Docker
 - 🧑‍🏫 **Speaker / Formateur** : JUG Paris · Devoxx · BBL · Meetup
-- 📍 **Paris** · Full Remote · Disponible immédiatement
+- 📍 **Paris** · Remote / Hybride · Disponible immédiatement
 
 ---
 
@@ -152,7 +152,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 Disponible pour des missions **Tech Lead Java / Architecte** en **full remote**.
 
-**TJM : 600–900 €/j** · Missions longues durée · Full Remote · Paris
+**TJM : 600–900 €/j** · Missions longues durée · Remote / Hybride · Paris
 
 [![LinkedIn](https://img.shields.io/badge/Me_contacter_sur_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
 [![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.com)
