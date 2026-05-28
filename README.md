@@ -5,7 +5,7 @@
 ### Senior Tech Lead & Architect · Java · Kotlin · AI & Cloud
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-7k%2B_followers-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
-[![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.com-black?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.com-black?style=flat-square&logo=vercel&logoColor=white)](https://my-portfolio-44v8hywvt-riadh-mnasris-projects.vercel.app/)
 [![Blog](https://img.shields.io/badge/Blog-techpassionsharing.com-orange?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 [![Available](https://img.shields.io/badge/🟢_Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
 
@@ -155,7 +155,7 @@ Disponible pour des missions **Tech Lead Java / Architecte** en **full remote**.
 **TJM : 600–900 €/j** · Missions longues durée · Remote / Hybride · Paris
 
 [![LinkedIn](https://img.shields.io/badge/Me_contacter_sur_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
-[![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.com)
+[![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://my-portfolio-44v8hywvt-riadh-mnasris-projects.vercel.app/)
 [![Blog](https://img.shields.io/badge/Lire_mon_blog_tech-FF6B35?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 
 ---
