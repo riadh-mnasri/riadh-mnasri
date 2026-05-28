@@ -2,12 +2,12 @@
 
 # Riadh MNASRI
 
-### Java Tech Lead Freelance · Spring Boot · Kotlin · AI
+### Senior Tech Lead & Architect · Java · Kotlin · AI & Cloud
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-riadh--mnasri-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadh-mnasri)
-[![Available](https://img.shields.io/badge/Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadh-mnasri)
-[![Paris](https://img.shields.io/badge/📍_Paris-Full%20Remote-lightgrey?style=flat-square)](https://linkedin.com/in/riadh-mnasri)
-[![TJM](https://img.shields.io/badge/TJM-600--900€-blue?style=flat-square)](https://linkedin.com/in/riadh-mnasri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-7k%2B_followers-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
+[![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.com-black?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.com)
+[![Blog](https://img.shields.io/badge/Blog-techpassionsharing.com-orange?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
+[![Available](https://img.shields.io/badge/🟢_Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
 
 </div>
 
@@ -15,12 +15,13 @@
 
 ## 👋 About Me
 
-Tech Lead Java freelance avec plus de 10 ans d'expérience dans la conception et le delivery de systèmes distribués critiques.
+**Senior Tech Lead & Architect Java** avec **20+ ans d'expérience** dans la conception et le delivery de systèmes distribués critiques — de la finance de marché (SGCIB) aux startups.
 
-Je combine expertise backend profonde (Java/Kotlin · Spring Boot · Microservices) et adoption des outils IA (Claude AI · MCP) pour livrer des architectures scalables, maintenables, et à fort impact business.
+Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microservices) et adoption des outils IA (Claude AI · MCP) pour livrer des architectures scalables, maintenables, et à fort impact business.
 
-- 🏗️ **Spécialité** : Architecture microservices · DDD · Event-driven · Clean Code
-- 🤖 **AI Tooling** : Claude API (Anthropic) · agents autonomes · MCP
+- 🏗️ **Spécialité** : Architecture microservices · DDD · Event-driven · Hexagonal
+- 🤖 **AI Tooling** : Claude API (Anthropic) · agents autonomes · Semantic Kernel · MCP
+- ☁️ **Cloud** : AWS · GCP · Terraform · Docker
 - 🧑‍🏫 **Speaker / Formateur** : JUG Paris · Devoxx · BBL · Meetup
 - 📍 **Paris** · Full Remote · Disponible immédiatement
 
@@ -48,13 +49,28 @@ Je combine expertise backend profonde (Java/Kotlin · Spring Boot · Microservic
 ### AI & Agents
 ![Claude AI](https://img.shields.io/badge/Claude_AI-Sonnet_4.6-8B5CF6?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-MCP%20%7C%20Hooks-8B5CF6?style=flat-square)
+![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-Microsoft-5E5E5E?style=flat-square&logo=microsoft)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### Data & DevOps
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-Deploy-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+---
+
+## 🏆 Certifications
+
+| Certification | Organisme | Année |
+|--------------|-----------|-------|
+| **Spring Certified Professional** | VMware | 2012 |
+| **Sun Certified Java Programmer (SCJP)** | Sun Microsystems | 2007 |
+| Software Architecture: Domain-Driven Design | LinkedIn Learning | 2021 |
+| Kotlin for Java Developers | Coursera | 2020 |
+| Google Cloud Platform | LinkedIn Learning | 2021 |
+| Terraform | LinkedIn Learning | 2022 |
+| Semantic Kernel | LinkedIn Learning | 2023 |
 
 ---
 
@@ -120,11 +136,13 @@ Je combine expertise backend profonde (Java/Kotlin · Spring Boot · Microservic
 
 ## 💬 Contact & Mission
 
-Je suis disponible pour des missions **Tech Lead Java / Architecte** en **full remote**, idéalement à partir de maintenant.
+Disponible pour des missions **Tech Lead Java / Architecte** en **full remote**.
 
-**TJM : 600–900 €/j** · Missions longues durée · Full Remote
+**TJM : 600–900 €/j** · Missions longues durée · Full Remote · Paris
 
-[![LinkedIn](https://img.shields.io/badge/Me_contacter_sur_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white&labelColor=0077B5)](https://linkedin.com/in/riadh-mnasri)
+[![LinkedIn](https://img.shields.io/badge/Me_contacter_sur_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
+[![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.com)
+[![Blog](https://img.shields.io/badge/Lire_mon_blog_tech-FF6B35?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 
 ---
 
