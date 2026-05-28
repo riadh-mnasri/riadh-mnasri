@@ -132,6 +132,14 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
+## ✍️ Derniers posts LinkedIn
+
+<!-- LINKEDIN-POSTS:START -->
+*Les posts s'afficheront ici automatiquement après configuration du flux RSS.*
+<!-- LINKEDIN-POSTS:END -->
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">

@@ -1,0 +1,97 @@
+name: Update LinkedIn Posts
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # Every day at 7h UTC (9h Paris)
+  workflow_dispatch:        # Manual trigger from GitHub UI
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch LinkedIn posts from RSS
+        env:
+          LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
+        run: |
+          python3 << 'EOF'
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          import re
+          import os
+          from datetime import datetime
+
+          rss_url = os.environ.get("LINKEDIN_RSS_URL", "")
+          if not rss_url:
+              print("LINKEDIN_RSS_URL secret not set — skipping.")
+              exit(0)
+
+          try:
+              with urllib.request.urlopen(rss_url, timeout=15) as resp:
+                  xml_data = resp.read()
+          except Exception as e:
+              print(f"Failed to fetch RSS: {e}")
+              exit(0)
+
+          root = ET.fromstring(xml_data)
+          ns = {"atom": "http://www.w3.org/2005/Atom"}
+          items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+
+          posts = []
+          for item in items[:5]:
+              title = item.findtext("title") or item.findtext("atom:title", namespaces=ns) or ""
+              link  = item.findtext("link")  or item.findtext("atom:link",  namespaces=ns) or ""
+              date  = item.findtext("pubDate") or item.findtext("atom:updated", namespaces=ns) or ""
+
+              title = title.strip()[:100]
+              if not title:
+                  continue
+
+              # Format date
+              try:
+                  dt = datetime.strptime(date[:16], "%a, %d %b %Y")
+                  date_str = dt.strftime("%d %b %Y")
+              except Exception:
+                  date_str = date[:10] if date else ""
+
+              posts.append(f"- [{title}]({link}) — {date_str}")
+
+          if not posts:
+              print("No posts found in RSS feed.")
+              exit(0)
+
+          block = "\n".join(posts)
+          new_section = f"<!-- LINKEDIN-POSTS:START -->\n{block}\n<!-- LINKEDIN-POSTS:END -->"
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          updated = re.sub(
+              r"<!-- LINKEDIN-POSTS:START -->.*?<!-- LINKEDIN-POSTS:END -->",
+              new_section,
+              content,
+              flags=re.DOTALL
+          )
+
+          if updated == content:
+              print("No changes.")
+              exit(0)
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(updated)
+
+          print(f"Updated README with {len(posts)} posts.")
+          EOF
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "Nothing to commit." && exit 0
+          git add README.md
+          git commit -m "chore: update LinkedIn posts [$(date +'%Y-%m-%d')]"
+          git push
