@@ -135,6 +135,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ## ✍️ Derniers posts LinkedIn
 
 <!-- LINKEDIN-POSTS:START -->
+- [Le métier de développeur évolue à vitesse grand V, et la transition vers le paradigme du développeur augmenté est désorm](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937-yTKq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOqAgUBBIHWxAWeQaSxUoJoUh2SDySQnkY) — 28 May 2026
 - [On parle beaucoup d'agents Claude en ce moment, mais on confond souvent quatre concepts bien distincts : l'agent (la bou](https://www.linkedin.com/posts/riadhmnasri_llm-claude-agent-activity-7462241443160428544-RraE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOqAgUBBIHWxAWeQaSxUoJoUh2SDySQnkY) — 28 May 2026
 <!-- LINKEDIN-POSTS:END -->
 
