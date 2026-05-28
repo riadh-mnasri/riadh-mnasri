@@ -150,7 +150,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ## 💬 Contact & Mission
 
-Disponible pour des missions **Tech Lead Java / Architecte** en **full remote**.
+Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybride**.
 
 **TJM : 600–900 €/j** · Missions longues durée · Remote / Hybride · Paris
 
