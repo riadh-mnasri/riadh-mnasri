@@ -161,5 +161,5 @@ Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybri
 ---
 
 <div align="center">
-  <i>Built with ❤️ and <a href="https://claude.ai/code">Claude Code</a></i>
+  <i>Built with ❤️ by Riadh MNASRI, Copilot and <a href="https://claude.ai/code">Claude Code</a></i>
 </div>
