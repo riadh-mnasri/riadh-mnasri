@@ -71,16 +71,27 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 | Certification | Organisme | Année |
 |--------------|-----------|-------|
-| **Claude Code** | Anthropic | 2025 |
-| **Claude SubAgents** | Anthropic | 2025 |
+| **Claude Code 101** | Anthropic | 2026 |
+| **Introduction to Subagents** | Anthropic | 2026 |
+| **Introduction to Agent Skills** | Anthropic | 2026 |
+| **Découvrir Claude IA d'Anthropic** | LinkedIn | 2026 |
+| **Claude Code in Action** | Anthropic | 2026 |
 | **Développeur Augmenté par l'IA Générative** | SFEIR Institute | 2025 |
+| Gen AI: Unlock Foundational Concepts | Google Cloud | 2025 |
+| IA : au-delà du chatbot | Google Cloud | 2025 |
+| L'essentiel d'Apache Spark | LinkedIn | 2024 |
+| Introduction to Generative AI | Google | 2023 |
+| Introducing Semantic Kernel | LinkedIn | 2023 |
+| Se lancer dans le recrutement indépendant | LinkedIn | 2023 |
+| Découvrir Terraform | LinkedIn | 2022 |
+| Software Architecture: Domain-Driven Design | LinkedIn | 2021 |
+| L'essentiel de Google Cloud Platform | LinkedIn | 2021 |
+| Javascript: La formation ULTIME | Udemy | 2020 |
+| Angular par la pratique | Udemy | 2020 |
+| Kotlin for Java Developers | Coursera | 2020 |
 | **Spring Certified Professional** | VMware | 2012 |
 | **Sun Certified Java Programmer (SCJP)** | Sun Microsystems | 2007 |
-| Software Architecture: Domain-Driven Design | LinkedIn Learning | 2021 |
-| Kotlin for Java Developers | Coursera | 2020 |
-| Google Cloud Platform | LinkedIn Learning | 2021 |
-| Terraform | LinkedIn Learning | 2022 |
-| Semantic Kernel | LinkedIn Learning | 2023 |
+
 
 ---
 
