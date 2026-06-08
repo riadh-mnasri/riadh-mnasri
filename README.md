@@ -69,15 +69,26 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ## 🏆 Certifications
 
+### ⭐ Certifications clés
+
 | Certification | Organisme | Année |
 |--------------|-----------|-------|
+| **Spring Certified Professional** | VMware | 2012 |
+| **Sun Certified Java Programmer (SCJP)** | Sun Microsystems | 2007 |
+| **Développeur Augmenté par l'IA Générative** | SFEIR Institute | 2025 |
+| **Claude Code in Action** | Anthropic | 2026 |
 | **Claude Code 101** | Anthropic | 2026 |
 | **Introduction to Subagents** | Anthropic | 2026 |
 | **Introduction to Agent Skills** | Anthropic | 2026 |
-| **Découvrir Claude IA d'Anthropic** | LinkedIn | 2026 |
-| **Claude Code in Action** | Anthropic | 2026 |
-| **Développeur Augmenté par l'IA Générative** | SFEIR Institute | 2025 |
 | Gen AI: Unlock Foundational Concepts | Google Cloud | 2025 |
+| Kotlin for Java Developers | Coursera | 2020 |
+
+<details>
+<summary>📋 Autres formations (11)</summary>
+
+| Certification | Organisme | Année |
+|--------------|-----------|-------|
+| Découvrir Claude IA d'Anthropic | LinkedIn | 2026 |
 | IA : au-delà du chatbot | Google Cloud | 2025 |
 | L'essentiel d'Apache Spark | LinkedIn | 2024 |
 | Introduction to Generative AI | Google | 2023 |
@@ -88,16 +99,24 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 | L'essentiel de Google Cloud Platform | LinkedIn | 2021 |
 | Javascript: La formation ULTIME | Udemy | 2020 |
 | Angular par la pratique | Udemy | 2020 |
-| Kotlin for Java Developers | Coursera | 2020 |
-| **Spring Certified Professional** | VMware | 2012 |
-| **Sun Certified Java Programmer (SCJP)** | Sun Microsystems | 2007 |
 
+</details>
+
+
+---
+
+## 🔨 Currently Building
+
+| Projet | Description | Stack |
+|--------|-------------|-------|
+| 🔥 **[Prospection Radar](https://github.com/riadh-mnasri/prospection-radar)** | Radar IA de détection de missions freelance, scoré par Claude AI | Kotlin · Spring Boot · Claude AI |
+| 🤖 **[Freelance Agent](https://github.com/riadh-mnasri/freelance-agent)** | Agent autonome de veille et prospection quotidienne | Python · Claude API |
 
 ---
 
 ## 🚀 Featured Projects
 
-### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar)
+### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Radar IA pour Tech Leads freelance — détection de missions et signaux marché caché, scoré par Claude AI
 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/prospection-radar)
