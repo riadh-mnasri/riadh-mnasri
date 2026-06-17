@@ -7,6 +7,8 @@
 [![Blog](https://img.shields.io/badge/Blog-techpassionsharing.com-orange?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 [![Available](https://img.shields.io/badge/🟢_Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
 
+### 📬 [Me contacter sur LinkedIn](https://linkedin.com/in/riadhmnasri) · TJM 600–900 €/j · Remote / Hybride Paris
+
 </div>
 
 ---
@@ -129,6 +131,15 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 - Détection marché caché : levées de fonds, nominations CTO, signaux de recrutement
 - Génération de messages LinkedIn & email personnalisés par Claude
 
+```mermaid
+flowchart LR
+    A[Sources: Freelance.com<br/>Hellowork · Frenchweb] -->|Scraping| B(Backend Spring Boot)
+    B -->|Scoring 0-100| C{Claude Sonnet}
+    C -->|Mission qualifiée| D[(PostgreSQL)]
+    D --> E[Frontend Angular]
+    C -->|Message généré| F[LinkedIn / Email]
+```
+
 ---
 
 ### 🎯 [TaskFlow](https://github.com/riadh-mnasri/todolist-app)
@@ -180,6 +191,8 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=riadh-mnasri&theme=github_dark)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=riadh-mnasri&theme=dark&hide_border=true)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=riadh-mnasri&theme=react-dark&hide_border=true&area=true)
 
 </div>
 
