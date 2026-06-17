@@ -1,0 +1,70 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch RSS and update README
+        run: |
+          python3 << 'EOF'
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime
+
+          FEED_URL = "https://techpassionsharing.com/feed/"
+
+          req = urllib.request.Request(FEED_URL, headers={"User-Agent": "Mozilla/5.0"})
+          with urllib.request.urlopen(req, timeout=15) as resp:
+              data = resp.read()
+
+          root = ET.fromstring(data)
+          items = root.findall("./channel/item")[:3]
+
+          lines = []
+          for item in items:
+              title = item.findtext("title", "").strip()[:120]
+              link = item.findtext("link", "").strip()
+              pub_date_raw = item.findtext("pubDate", "").strip()
+              try:
+                  pub_date = datetime.strptime(pub_date_raw, "%a, %d %b %Y %H:%M:%S %z").strftime("%d %b %Y")
+              except ValueError:
+                  pub_date = pub_date_raw
+              lines.append(f"- 📄 [{title}]({link}) — *{pub_date}*")
+
+          new_section = "<!-- BLOG-POSTS:START -->\n" + "\n".join(lines) + "\n<!-- BLOG-POSTS:END -->"
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          updated = re.sub(
+              r"<!-- BLOG-POSTS:START -->.*?<!-- BLOG-POSTS:END -->",
+              new_section,
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(updated)
+
+          print(f"Updated with {len(lines)} posts")
+          EOF
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "Nothing to commit." && exit 0
+          git add README.md
+          git commit -m "post: update blog posts [$(date +'%Y-%m-%d')]"
+          git push

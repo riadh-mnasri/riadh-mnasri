@@ -180,6 +180,16 @@ flowchart LR
 
 ---
 
+## 📝 Derniers articles du blog
+
+<!-- BLOG-POSTS:START -->
+- 📄 [CI/CD + GitHub Actions + Azure](https://techpassionsharing.com/2026/06/05/ci-cd-github-actions-azure/) — *05 Jun 2026*
+- 📄 [Kubernetes sur Azure avec Terraform : Du Concept à la Mise en Production](https://techpassionsharing.com/2026/06/04/kubernetes-sur-azure-avec-terraform-du-concept-a-la-mise-en-production/) — *04 Jun 2026*
+- 📄 [Maîtriser les Skills Claude et les Adapter à GitHub Copilot : Un Guide Pratique pour Développeurs](https://techpassionsharing.com/2026/06/04/maitriser-les-skills-claude-et-les-adapter-a-github-copilot-un-guide-pratique-pour-developpeurs/) — *04 Jun 2026*
+<!-- BLOG-POSTS:END -->
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
