@@ -107,15 +107,6 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
-## 🔨 Currently Building
-
-| Projet | Description | Stack |
-|--------|-------------|-------|
-| 🔥 **[Prospection Radar](https://github.com/riadh-mnasri/prospection-radar)** | Radar IA de détection de missions freelance, scoré par Claude AI | Kotlin · Spring Boot · Claude AI |
-| 🤖 **[Freelance Agent](https://github.com/riadh-mnasri/freelance-agent)** | Agent autonome de veille et prospection quotidienne | Python · Claude API |
-
----
-
 ## 🚀 Featured Projects
 
 ### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
@@ -172,6 +163,8 @@ flowchart LR
 ---
 
 ## ✍️ Derniers posts LinkedIn
+
+<sub>Mis à jour manuellement via [GitHub Action](.github/workflows/linkedin-posts.yml) (pas de flux RSS public LinkedIn)</sub>
 
 <!-- LINKEDIN-POSTS:START -->
 - 🔗 [Le métier de développeur évolue à vitesse grand V, et la transition vers le…](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937) — *28 May 2026*
