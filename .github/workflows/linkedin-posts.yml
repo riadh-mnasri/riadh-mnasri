@@ -31,7 +31,7 @@ jobs:
           url   = """${{ github.event.inputs.url }}""".strip()
           today = datetime.utcnow().strftime("%d %b %Y")
 
-          new_entry = f"- [{title}]({url}) — {today}"
+          new_entry = f"- [{title}]({url}) · {today}"
 
           with open("README.md", "r", encoding="utf-8") as f:
               content = f.read()
@@ -74,4 +74,5 @@ jobs:
           git diff --quiet && echo "Nothing to commit." && exit 0
           git add README.md
           git commit -m "post: add LinkedIn post [$(date +'%Y-%m-%d')]"
+          git pull --rebase origin main
           git push

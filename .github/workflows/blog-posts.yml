@@ -40,7 +40,7 @@ jobs:
                   pub_date = datetime.strptime(pub_date_raw, "%a, %d %b %Y %H:%M:%S %z").strftime("%d %b %Y")
               except ValueError:
                   pub_date = pub_date_raw
-              lines.append(f"- 📄 [{title}]({link}) — *{pub_date}*")
+              lines.append(f"- 📄 [{title}]({link}) · *{pub_date}*")
 
           new_section = "<!-- BLOG-POSTS:START -->\n" + "\n".join(lines) + "\n<!-- BLOG-POSTS:END -->"
 

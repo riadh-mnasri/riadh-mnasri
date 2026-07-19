@@ -64,7 +64,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 | Diplôme | École | Année |
 |---------|-------|-------|
-| **Executive Master — Stratégie de la Transformation Numérique** | 🏛️ **École Polytechnique** | 2024 |
+| **Executive Master · Stratégie de la Transformation Numérique** | 🏛️ **École Polytechnique** | 2024 |
 | **Diplôme d'Ingénieur en Informatique** | 🏛️ **EMI** | 2004 |
 
 ---
@@ -110,7 +110,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ## 🚀 Featured Projects
 
 ### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
-> Radar IA pour Tech Leads freelance — détection de missions et signaux marché caché, scoré par Claude AI
+> Radar IA pour Tech Leads freelance · détection de missions et signaux marché caché, scoré par Claude AI
 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/prospection-radar)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/prospection-radar)
@@ -134,7 +134,7 @@ flowchart LR
 ---
 
 ### 🎯 [TaskFlow](https://github.com/riadh-mnasri/todolist-app)
-> Full-stack task manager pour Tech Leads — Spring Boot + Angular 17
+> Full-stack task manager pour Tech Leads · Spring Boot + Angular 17
 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/todolist-app)
 [![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/todolist-app)
@@ -167,8 +167,8 @@ flowchart LR
 <sub>Mis à jour manuellement via [GitHub Action](.github/workflows/linkedin-posts.yml) (pas de flux RSS public LinkedIn)</sub>
 
 <!-- LINKEDIN-POSTS:START -->
-- 🔗 [Le métier de développeur évolue à vitesse grand V, et la transition vers le…](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937) — *28 May 2026*
-- 🔗 [On parle beaucoup d'agents Claude en ce moment, mais on confond souvent quatre…](https://www.linkedin.com/posts/riadhmnasri_llm-claude-agent-activity-7462241443160428544-RraE) — *28 May 2026*
+- 🔗 [Le métier de développeur évolue à vitesse grand V, et la transition vers le…](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937) · *28 May 2026*
+- 🔗 [On parle beaucoup d'agents Claude en ce moment, mais on confond souvent quatre…](https://www.linkedin.com/posts/riadhmnasri_llm-claude-agent-activity-7462241443160428544-RraE) · *28 May 2026*
 <!-- LINKEDIN-POSTS:END -->
 
 ---
@@ -176,9 +176,9 @@ flowchart LR
 ## 📝 Derniers articles du blog
 
 <!-- BLOG-POSTS:START -->
-- 📄 [CI/CD + GitHub Actions + Azure](https://techpassionsharing.com/2026/06/05/ci-cd-github-actions-azure/) — *05 Jun 2026*
-- 📄 [Kubernetes sur Azure avec Terraform : Du Concept à la Mise en Production](https://techpassionsharing.com/2026/06/04/kubernetes-sur-azure-avec-terraform-du-concept-a-la-mise-en-production/) — *04 Jun 2026*
-- 📄 [Maîtriser les Skills Claude et les Adapter à GitHub Copilot : Un Guide Pratique pour Développeurs](https://techpassionsharing.com/2026/06/04/maitriser-les-skills-claude-et-les-adapter-a-github-copilot-un-guide-pratique-pour-developpeurs/) — *04 Jun 2026*
+- 📄 [CI/CD + GitHub Actions + Azure](https://techpassionsharing.com/2026/06/05/ci-cd-github-actions-azure/) · *05 Jun 2026*
+- 📄 [Kubernetes sur Azure avec Terraform : Du Concept à la Mise en Production](https://techpassionsharing.com/2026/06/04/kubernetes-sur-azure-avec-terraform-du-concept-a-la-mise-en-production/) · *04 Jun 2026*
+- 📄 [Maîtriser les Skills Claude et les Adapter à GitHub Copilot : Un Guide Pratique pour Développeurs](https://techpassionsharing.com/2026/06/04/maitriser-les-skills-claude-et-les-adapter-a-github-copilot-un-guide-pratique-pour-developpeurs/) · *04 Jun 2026*
 <!-- BLOG-POSTS:END -->
 
 ---
