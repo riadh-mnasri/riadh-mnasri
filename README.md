@@ -52,6 +52,9 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-Microsoft-5E5E5E?style=flat-square&logo=microsoft)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 
+### En exploration
+[![Rust](https://img.shields.io/badge/Rust-Learning-CE422B?style=flat-square&logo=rust&logoColor=white)](https://github.com/riadh-mnasri/learning-rust)
+
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
