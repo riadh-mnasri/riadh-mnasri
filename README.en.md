@@ -155,6 +155,21 @@ I combine deep backend expertise (Java · Kotlin · Spring Boot · Microservices
 <a id="featured-projects"></a>
 ## 🚀 Featured Projects
 
+### 🩻 [Hexray](https://github.com/riadh-mnasri/hexray) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
+> Architecture audit CLI for TypeScript/Kotlin projects · self-contained HTML report with a Claude-generated executive summary
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/hexray)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/riadh-mnasri/hexray)
+[![Claude AI](https://img.shields.io/badge/Claude_AI-synthesis-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/hexray)
+[![Hexagonal](https://img.shields.io/badge/Architecture-Hexagonal-0081CB?style=flat-square)](https://github.com/riadh-mnasri/hexray)
+
+- Detects layering violations (domain/infrastructure), dependency cycles, test pyramid ratio, dependency freshness
+- Prioritizes findings and has Claude synthesize them into an executive summary with recommendations
+- Self-contained HTML report, designed to be readable by a client or recruiter in a few seconds
+- Hexagonal architecture: pure domain, ports/adapters (dependency-cruiser, Claude; Detekt/ArchUnit planned)
+
+---
+
 ### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > AI-powered radar for freelance Tech Leads · detects missions and hidden market signals, scored by Claude AI
 
