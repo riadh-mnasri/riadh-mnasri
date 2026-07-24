@@ -110,6 +110,32 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
+## 📦 Open Source Libraries
+
+### ♟️ [kotlin-chess-tournament](https://github.com/riadh-mnasri/kotlin-chess-tournament)
+> Appariement de tournois d'échecs au système suisse, rating Elo et classement final pour Kotlin/JVM
+
+[![Build](https://github.com/riadh-mnasri/kotlin-chess-tournament/actions/workflows/ci.yml/badge.svg)](https://github.com/riadh-mnasri/kotlin-chess-tournament/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/kotlin-chess-tournament/blob/main/LICENSE)
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-chess-tournament)
+
+- Appariement suisse (variante Dutch), gestion du bye, équilibrage des couleurs
+- Calcul de rating Elo et classement avec départage (Buchholz, Sonneborn-Berger)
+- Comble un vide côté JVM/Kotlin — les seules implémentations d'appariement suisse existantes sont en C++/Pascal ou JavaScript
+
+### 🏦 [kotlin-counterparty-risk](https://github.com/riadh-mnasri/kotlin-counterparty-risk)
+> Exposition au risque de contrepartie (EAD), perte attendue et CVA simplifiée pour Kotlin/JVM — outil pédagogique
+
+[![Build](https://github.com/riadh-mnasri/kotlin-counterparty-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/riadh-mnasri/kotlin-counterparty-risk/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/kotlin-counterparty-risk/blob/main/LICENSE)
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-counterparty-risk)
+
+- Calcul d'EAD (approche globale avec décotes prudentielles, SFT), Expected Loss, CVA simplifiée
+- Contrôle de limite de crédit (OK / WARNING / BREACH), arithmétique `BigDecimal` de bout en bout
+- Comble un vide en Kotlin/JVM entre `finmath-lib`/`Strata` (analytics générales) et les moteurs réglementaires complets
+
+---
+
 ## 🚀 Featured Projects
 
 ### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
