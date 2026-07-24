@@ -1,6 +1,7 @@
 <div align="center">
 
-🇫🇷 **Français** · [🇬🇧 English](README.en.md)
+![Français](https://img.shields.io/badge/🇫🇷-Français-2ea44f?style=for-the-badge)
+[![English](https://img.shields.io/badge/🇬🇧-English-lightgrey?style=for-the-badge)](README.en.md)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Senior+Tech+Lead+%26+Architect+Java;20%2B+ans+d'exp%C3%A9rience;Spring+Boot+%C2%B7+Kotlin+%C2%B7+Microservices;AI+%26+Cloud+%7C+Claude+%C2%B7+AWS+%C2%B7+GCP;Open+to+missions+%F0%9F%9F%A2)](https://linkedin.com/in/riadhmnasri)
 
