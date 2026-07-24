@@ -113,26 +113,27 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ## 📦 Open Source Libraries
 
 ### ♟️ [kotlin-chess-tournament](https://github.com/riadh-mnasri/kotlin-chess-tournament)
-> Appariement de tournois d'échecs au système suisse, rating Elo et classement final pour Kotlin/JVM
+> Swiss-system chess tournament pairing, Elo rating and standings for Kotlin/JVM
 
 [![Build](https://github.com/riadh-mnasri/kotlin-chess-tournament/actions/workflows/ci.yml/badge.svg)](https://github.com/riadh-mnasri/kotlin-chess-tournament/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/kotlin-chess-tournament/blob/main/LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-chess-tournament)
 
-- Appariement suisse (variante Dutch), gestion du bye, équilibrage des couleurs
-- Calcul de rating Elo et classement avec départage (Buchholz, Sonneborn-Berger)
-- Comble un vide côté JVM/Kotlin — les seules implémentations d'appariement suisse existantes sont en C++/Pascal ou JavaScript
+- Swiss pairing (Dutch variant), bye handling, color balancing
+- Elo rating calculation and final standings with tiebreaks (Buchholz, Sonneborn-Berger)
+- Fills a gap on the JVM/Kotlin side: the only existing Swiss pairing implementations are in C++/Pascal or JavaScript
 
 ### 🏦 [kotlin-counterparty-risk](https://github.com/riadh-mnasri/kotlin-counterparty-risk)
-> Exposition au risque de contrepartie (EAD), perte attendue et CVA simplifiée pour Kotlin/JVM — outil pédagogique
+> Counterparty credit risk exposure, expected loss and CVA for Kotlin/JVM (teaching/prototyping tool)
 
 [![Build](https://github.com/riadh-mnasri/kotlin-counterparty-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/riadh-mnasri/kotlin-counterparty-risk/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/kotlin-counterparty-risk/blob/main/LICENSE)
 [![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-counterparty-risk)
 
-- Calcul d'EAD (approche globale avec décotes prudentielles, SFT), Expected Loss, CVA simplifiée
-- Contrôle de limite de crédit (OK / WARNING / BREACH), arithmétique `BigDecimal` de bout en bout
-- Comble un vide en Kotlin/JVM entre `finmath-lib`/`Strata` (analytics générales) et les moteurs réglementaires complets
+- Exposure at default (EAD) via a simplified Basel comprehensive approach with regulatory haircuts, for SFTs
+- Expected Loss and simplified CVA
+- Credit limit check (OK / WARNING / BREACH), end-to-end `BigDecimal` arithmetic
+- Fills a gap in Kotlin/JVM between `finmath-lib`/`Strata` (general analytics) and full regulatory engines
 
 ---
 
