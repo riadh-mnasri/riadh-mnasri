@@ -207,7 +207,7 @@ flowchart LR
 
 - Architecture hexagonale + DDD, backend Kotlin/Spring Boot, PostgreSQL
 - Kanban, calendrier, statistiques et gamification (XP, badges)
-- [Démo live](https://taskly-frontend-brown.vercel.app) (identifiants de démo fournis) · [API](https://backend-production-a738.up.railway.app/swagger-ui.html)
+- [Démo live](https://taskly-frontend-brown.vercel.app) (identifiants de démo fournis) · [API](https://taskly-backend-4nh4.onrender.com/swagger-ui.html)
 
 ---
 
