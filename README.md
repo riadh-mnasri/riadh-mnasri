@@ -179,6 +179,23 @@ flowchart LR
 
 ---
 
+### 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch)
+> App de référence pour le matching freelance/missions · démonstrateur DDD, Hexagonal, TDD/BDD et Event-driven
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/missionmatch)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-Hexagonal-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/missionmatch)
+[![Angular](https://img.shields.io/badge/Angular-DDD-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/missionmatch)
+[![Kafka](https://img.shields.io/badge/Apache_Kafka-Event--driven-231F20?style=flat-square&logo=apachekafka&logoColor=white)](https://github.com/riadh-mnasri/missionmatch)
+[![Terraform](https://img.shields.io/badge/Terraform-AWS-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/riadh-mnasri/missionmatch)
+
+- Matching automatique profil freelance (compétences, TJM, disponibilité) vs missions entrantes, suivi du pipeline jusqu'au contrat signé
+- Architecture hexagonale (ports & adapters) sur chaque module backend, DDD avec bounded contexts et ubiquitous language
+- Communication événementielle inter-contextes via Kafka
+- Infra as Code : déploiement AWS via modules Terraform
+- Documentation pédagogique complète (FR/EN) de chaque pratique : DDD, Hexagonal, TDD, BDD
+
+---
+
 ### 🎯 [TaskFlow](https://github.com/riadh-mnasri/todolist-app)
 > Full-stack task manager pour Tech Leads · Spring Boot + Angular 17
 
@@ -191,20 +208,32 @@ flowchart LR
 
 ---
 
-### 🤖 [Freelance Agent](https://github.com/riadh-mnasri/freelance-agent)
-> Agent Python autonome de prospection freelance
+### 🎓 [Claude Expert](https://claude-expert.vercel.app)
+> Formation interactive pour maîtriser Claude Code · 12 modules, 144 questions de quiz, tableau de bord de progression
 
-[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python)](https://github.com/riadh-mnasri/freelance-agent)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=nextdotjs)](https://github.com/riadh-mnasri/claude-expert)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/claude-expert)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)](https://github.com/riadh-mnasri/claude-expert)
 
-- Agent de veille et prospection automatisé
-- Digest quotidien des opportunités pertinentes
+- 12 modules progressifs couvrant Claude Code de bout en bout
+- 144 questions de quiz avec suivi de progression
+- [Démo live](https://claude-expert.vercel.app)
 
 ---
 
-### 🎤 [Slides Creator](https://github.com/riadh-mnasri/slides-creator)
-> Génération de présentations Reveal.js depuis du HTML
+### ♟️ [ChessCoach.ai](https://github.com/riadh-mnasri/chesscoach-ai)
+> Coach d'échecs propulsé par l'IA · analyse Stockfish et coaching personnalisé par Claude
 
-[![Reveal.js](https://img.shields.io/badge/Reveal.js-HTML_slides-white?style=flat-square)](https://github.com/riadh-mnasri/slides-creator)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![Claude AI](https://img.shields.io/badge/Claude-Opus_4-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![Stockfish](https://img.shields.io/badge/Stockfish-16-8B4513?style=flat-square)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/chesscoach-ai/blob/main/LICENSE)
+
+- Import automatique des parties depuis chess.com et lichess, déduplication
+- Analyse coup par coup avec Stockfish 16 (profondeur 20) et classification (brillant / bon / imprécision / erreur / gaffe)
+- Coaching en langage naturel par Claude Opus : explication des erreurs, plan de progression personnalisé
+- Revue de partie interactive : échiquier synchronisé, barre d'évaluation, explication à la demande
 
 ---
 

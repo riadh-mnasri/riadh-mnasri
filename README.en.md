@@ -179,6 +179,23 @@ flowchart LR
 
 ---
 
+### 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch)
+> Reference app for freelance/mission matching · showcases DDD, Hexagonal, TDD/BDD and Event-driven design
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/missionmatch)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-Hexagonal-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/missionmatch)
+[![Angular](https://img.shields.io/badge/Angular-DDD-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/missionmatch)
+[![Kafka](https://img.shields.io/badge/Apache_Kafka-Event--driven-231F20?style=flat-square&logo=apachekafka&logoColor=white)](https://github.com/riadh-mnasri/missionmatch)
+[![Terraform](https://img.shields.io/badge/Terraform-AWS-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/riadh-mnasri/missionmatch)
+
+- Automatic matching of a freelancer's profile (skills, day rate, availability) against incoming missions, tracked through the pipeline to a signed contract
+- Hexagonal architecture (ports & adapters) on every backend module, DDD with bounded contexts and ubiquitous language
+- Event-driven communication between contexts via Kafka
+- Infrastructure as Code: AWS deployment via Terraform modules
+- Full pedagogical documentation (FR/EN) of each practice: DDD, Hexagonal, TDD, BDD
+
+---
+
 ### 🎯 [TaskFlow](https://github.com/riadh-mnasri/todolist-app)
 > Full-stack task manager for Tech Leads · Spring Boot + Angular 17
 
@@ -191,20 +208,32 @@ flowchart LR
 
 ---
 
-### 🤖 [Freelance Agent](https://github.com/riadh-mnasri/freelance-agent)
-> Autonomous Python agent for freelance prospecting
+### 🎓 [Claude Expert](https://claude-expert.vercel.app)
+> Interactive training to master Claude Code · 12 modules, 144 quiz questions, progress dashboard
 
-[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python)](https://github.com/riadh-mnasri/freelance-agent)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=nextdotjs)](https://github.com/riadh-mnasri/claude-expert)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/claude-expert)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)](https://github.com/riadh-mnasri/claude-expert)
 
-- Automated market watch & prospecting agent
-- Daily digest of relevant opportunities
+- 12 progressive modules covering Claude Code end-to-end
+- 144 quiz questions with progress tracking
+- [Live demo](https://claude-expert.vercel.app)
 
 ---
 
-### 🎤 [Slides Creator](https://github.com/riadh-mnasri/slides-creator)
-> Reveal.js presentation generation from HTML
+### ♟️ [ChessCoach.ai](https://github.com/riadh-mnasri/chesscoach-ai)
+> AI-powered chess coach · Stockfish analysis and personalized coaching by Claude
 
-[![Reveal.js](https://img.shields.io/badge/Reveal.js-HTML_slides-white?style=flat-square)](https://github.com/riadh-mnasri/slides-creator)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![Claude AI](https://img.shields.io/badge/Claude-Opus_4-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![Stockfish](https://img.shields.io/badge/Stockfish-16-8B4513?style=flat-square)](https://github.com/riadh-mnasri/chesscoach-ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/chesscoach-ai/blob/main/LICENSE)
+
+- Automatic game import from chess.com and lichess, with duplicate detection
+- Move-by-move analysis with Stockfish 16 (depth 20) and classification (brilliant / good / inaccuracy / mistake / blunder)
+- Natural-language coaching by Claude Opus: mistake explanations, personalized improvement plan
+- Interactive game review: synchronized chessboard, evaluation bar, on-demand move explanations
 
 ---
 
