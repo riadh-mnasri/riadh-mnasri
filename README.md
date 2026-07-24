@@ -196,15 +196,18 @@ flowchart LR
 
 ---
 
-### 🎯 [TaskFlow](https://github.com/riadh-mnasri/todolist-app)
-> Full-stack task manager pour Tech Leads · Spring Boot + Angular 17
+### 📋 [Taskly](https://taskly-frontend-brown.vercel.app)
+> App de gestion de tâches gamifiée pour collégiens · Kotlin/Spring Boot (hexagonal + DDD) + Angular 18
 
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/todolist-app)
-[![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/todolist-app)
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/taskly)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-Hexagonal-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/taskly)
+[![Angular](https://img.shields.io/badge/Angular-18-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/taskly)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/riadh-mnasri/taskly)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/taskly/blob/main/LICENSE)
 
-- Gestion de tâches par priorité, client, projet et statut
-- API REST Spring Boot · JPA · H2/PostgreSQL
-- Interface Angular 17 standalone components · Bootstrap 5
+- Architecture hexagonale + DDD, backend Kotlin/Spring Boot, PostgreSQL
+- Kanban, calendrier, statistiques et gamification (XP, badges)
+- [Démo live](https://taskly-frontend-brown.vercel.app) (identifiants de démo fournis) · [API](https://backend-production-a738.up.railway.app/swagger-ui.html)
 
 ---
 
