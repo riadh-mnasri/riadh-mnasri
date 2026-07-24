@@ -13,6 +13,13 @@
 
 ---
 
+## 📑 Sommaire
+
+[About Me](#about-me) · [Tech Stack](#tech-stack) · [Formation](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Posts LinkedIn](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
+
+---
+
+<a id="about-me"></a>
 ## 👋 About Me
 
 **Senior Tech Lead & Architect Java** avec **20+ ans d'expérience** dans la conception et le delivery de systèmes distribués critiques, de la finance de marché (SGCIB) aux startups.
@@ -23,10 +30,12 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 - 🤖 **AI Tooling** : Claude API (Anthropic) · agents autonomes · Semantic Kernel · MCP
 - ☁️ **Cloud** : AWS · GCP · Terraform · Docker
 - 🧑‍🏫 **Speaker / Formateur** : JUG Paris · Devoxx · BBL · Meetup
-- 📍 **Paris** · Remote / Hybride · Disponible immédiatement
+- 🗣️ **Langues** : Français (natif) · Anglais (courant)
+- 📍 **Paris** · Remote / Hybride
 
 ---
 
+<a id="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -63,6 +72,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
+<a id="formation"></a>
 ## 🎓 Formation
 
 | Diplôme | École | Année |
@@ -72,6 +82,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
+<a id="certifications"></a>
 ## 🏆 Certifications
 
 ### ⭐ Certifications clés
@@ -82,17 +93,17 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 | **Sun Certified Java Programmer (SCJP)** | Sun Microsystems | 2007 |
 | **Développeur Augmenté par l'IA Générative** | SFEIR Institute | 2025 |
 | **Claude Code in Action** | Anthropic | 2026 |
-| **Claude Code 101** | Anthropic | 2026 |
-| **Introduction to Subagents** | Anthropic | 2026 |
-| **Introduction to Agent Skills** | Anthropic | 2026 |
 | Gen AI: Unlock Foundational Concepts | Google Cloud | 2025 |
 | Kotlin for Java Developers | Coursera | 2020 |
 
 <details>
-<summary>📋 Autres formations (11)</summary>
+<summary>📋 Autres formations (14)</summary>
 
 | Certification | Organisme | Année |
 |--------------|-----------|-------|
+| Claude Code 101 | Anthropic | 2026 |
+| Introduction to Subagents | Anthropic | 2026 |
+| Introduction to Agent Skills | Anthropic | 2026 |
 | Découvrir Claude IA d'Anthropic | LinkedIn | 2026 |
 | IA : au-delà du chatbot | Google Cloud | 2025 |
 | L'essentiel d'Apache Spark | LinkedIn | 2024 |
@@ -110,6 +121,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
+<a id="open-source-libraries"></a>
 ## 📦 Open Source Libraries
 
 ### ♟️ [kotlin-chess-tournament](https://github.com/riadh-mnasri/kotlin-chess-tournament)
@@ -137,6 +149,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 ---
 
+<a id="featured-projects"></a>
 ## 🚀 Featured Projects
 
 ### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
@@ -192,6 +205,7 @@ flowchart LR
 
 ---
 
+<a id="posts-linkedin"></a>
 ## ✍️ Derniers posts LinkedIn
 
 <sub>Mis à jour manuellement via [GitHub Action](.github/workflows/linkedin-posts.yml) (pas de flux RSS public LinkedIn)</sub>
@@ -204,6 +218,7 @@ flowchart LR
 
 ---
 
+<a id="blog"></a>
 ## 📝 Derniers articles du blog
 
 <!-- BLOG-POSTS:START -->
@@ -214,6 +229,7 @@ flowchart LR
 
 ---
 
+<a id="github-stats"></a>
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -242,6 +258,7 @@ flowchart LR
 
 ---
 
+<a id="contact"></a>
 ## 💬 Contact & Mission
 
 Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybride**.
@@ -255,5 +272,5 @@ Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybri
 ---
 
 <div align="center">
-  <i>Built with ❤️ by Riadh MNASRI, Copilot and <a href="https://claude.ai/code">Claude Code</a></i>
+  <i>Built with ❤️ by Riadh MNASRI</i>
 </div>
