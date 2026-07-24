@@ -1,39 +1,39 @@
 <div align="center">
 
-🇫🇷 **Français** · [🇬🇧 English](README.en.md)
+[🇫🇷 Français](README.md) · 🇬🇧 **English**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Senior+Tech+Lead+%26+Architect+Java;20%2B+ans+d'exp%C3%A9rience;Spring+Boot+%C2%B7+Kotlin+%C2%B7+Microservices;AI+%26+Cloud+%7C+Claude+%C2%B7+AWS+%C2%B7+GCP;Open+to+missions+%F0%9F%9F%A2)](https://linkedin.com/in/riadhmnasri)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Senior+Tech+Lead+%26+Architect+Java;20%2B+years+of+experience;Spring+Boot+%C2%B7+Kotlin+%C2%B7+Microservices;AI+%26+Cloud+%7C+Claude+%C2%B7+AWS+%C2%B7+GCP;Open+to+missions+%F0%9F%9F%A2)](https://linkedin.com/in/riadhmnasri)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-7k%2B_followers-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
 [![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.com-black?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)
 [![Blog](https://img.shields.io/badge/Blog-techpassionsharing.com-orange?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
-[![Available](https://img.shields.io/badge/🟢_Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
+[![Available](https://img.shields.io/badge/🟢_Available-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
 
-### 📬 [Me contacter sur LinkedIn](https://linkedin.com/in/riadhmnasri) · TJM 600–900 €/j · Remote / Hybride Paris
+### 📬 [Contact me on LinkedIn](https://linkedin.com/in/riadhmnasri) · Day rate €600–900 · Remote / Hybrid · Paris
 
 </div>
 
 ---
 
-## 📑 Sommaire
+## 📑 Table of Contents
 
-[About Me](#about-me) · [Tech Stack](#tech-stack) · [Formation](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Posts LinkedIn](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
+[About Me](#about-me) · [Tech Stack](#tech-stack) · [Education](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [LinkedIn Posts](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
 
 ---
 
 <a id="about-me"></a>
 ## 👋 About Me
 
-**Senior Tech Lead & Architect Java** avec **20+ ans d'expérience** dans la conception et le delivery de systèmes distribués critiques, de la finance de marché (SGCIB) aux startups.
+**Senior Tech Lead & Architect Java** with **20+ years of experience** designing and delivering critical distributed systems, from market finance (SGCIB) to startups.
 
-Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microservices) et adoption des outils IA (Claude AI · MCP) pour livrer des architectures scalables, maintenables, et à fort impact business.
+I combine deep backend expertise (Java · Kotlin · Spring Boot · Microservices) with AI tooling adoption (Claude AI · MCP) to deliver scalable, maintainable architectures with strong business impact.
 
-- 🏗️ **Spécialité** : Architecture microservices · DDD · Event-driven · Hexagonal
-- 🤖 **AI Tooling** : Claude API (Anthropic) · agents autonomes · Semantic Kernel · MCP
-- ☁️ **Cloud** : AWS · GCP · Terraform · Docker
-- 🧑‍🏫 **Speaker / Formateur** : JUG Paris · Devoxx · BBL · Meetup
-- 🗣️ **Langues** : Français (natif) · Anglais (courant)
-- 📍 **Paris** · Remote / Hybride
+- 🏗️ **Specialty**: Microservices Architecture · DDD · Event-driven · Hexagonal
+- 🤖 **AI Tooling**: Claude API (Anthropic) · autonomous agents · Semantic Kernel · MCP
+- ☁️ **Cloud**: AWS · GCP · Terraform · Docker
+- 🧑‍🏫 **Speaker / Trainer**: JUG Paris · Devoxx · BBL · Meetup
+- 🗣️ **Languages**: French (native) · English (fluent)
+- 📍 **Paris** · Remote / Hybrid
 
 ---
 
@@ -63,7 +63,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-Microsoft-5E5E5E?style=flat-square&logo=microsoft)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### En exploration
+### Exploring
 [![Rust](https://img.shields.io/badge/Rust-Learning-CE422B?style=flat-square&logo=rust&logoColor=white)](https://github.com/riadh-mnasri/learning-rust)
 ![Go](https://img.shields.io/badge/Go-Learning-00ADD8?style=flat-square&logo=go&logoColor=white)
 
@@ -76,48 +76,48 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ---
 
 <a id="formation"></a>
-## 🎓 Formation
+## 🎓 Education
 
-| Diplôme | École | Année |
+| Degree | School | Year |
 |---------|-------|-------|
-| **Executive Master · Stratégie de la Transformation Numérique** | 🏛️ **École Polytechnique** | 2024 |
-| **Diplôme d'Ingénieur en Informatique** | 🏛️ **EMI** | 2004 |
+| **Executive Master · Digital Transformation Strategy** | 🏛️ **École Polytechnique** | 2024 |
+| **Engineering Degree in Computer Science** | 🏛️ **EMI** | 2004 |
 
 ---
 
 <a id="certifications"></a>
 ## 🏆 Certifications
 
-### ⭐ Certifications clés
+### ⭐ Key certifications
 
-| Certification | Organisme | Année |
+| Certification | Organization | Year |
 |--------------|-----------|-------|
 | **Spring Certified Professional** | VMware | 2012 |
 | **Sun Certified Java Programmer (SCJP)** | Sun Microsystems | 2007 |
-| **Développeur Augmenté par l'IA Générative** | SFEIR Institute | 2025 |
+| **AI-Augmented Developer (Generative AI)** | SFEIR Institute | 2025 |
 | **Claude Code in Action** | Anthropic | 2026 |
 | Gen AI: Unlock Foundational Concepts | Google Cloud | 2025 |
 | Kotlin for Java Developers | Coursera | 2020 |
 
 <details>
-<summary>📋 Autres formations (14)</summary>
+<summary>📋 Other courses (14)</summary>
 
-| Certification | Organisme | Année |
+| Certification | Organization | Year |
 |--------------|-----------|-------|
 | Claude Code 101 | Anthropic | 2026 |
 | Introduction to Subagents | Anthropic | 2026 |
 | Introduction to Agent Skills | Anthropic | 2026 |
-| Découvrir Claude IA d'Anthropic | LinkedIn | 2026 |
-| IA : au-delà du chatbot | Google Cloud | 2025 |
-| L'essentiel d'Apache Spark | LinkedIn | 2024 |
+| Discovering Anthropic's Claude AI | LinkedIn | 2026 |
+| AI: Beyond the Chatbot | Google Cloud | 2025 |
+| Apache Spark Essentials | LinkedIn | 2024 |
 | Introduction to Generative AI | Google | 2023 |
 | Introducing Semantic Kernel | LinkedIn | 2023 |
-| Se lancer dans le recrutement indépendant | LinkedIn | 2023 |
-| Découvrir Terraform | LinkedIn | 2022 |
+| Getting Started as an Independent Consultant | LinkedIn | 2023 |
+| Discovering Terraform | LinkedIn | 2022 |
 | Software Architecture: Domain-Driven Design | LinkedIn | 2021 |
-| L'essentiel de Google Cloud Platform | LinkedIn | 2021 |
-| Javascript: La formation ULTIME | Udemy | 2020 |
-| Angular par la pratique | Udemy | 2020 |
+| Google Cloud Platform Essentials | LinkedIn | 2021 |
+| JavaScript: The Ultimate Course | Udemy | 2020 |
+| Hands-on Angular | Udemy | 2020 |
 
 </details>
 
@@ -156,62 +156,62 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ## 🚀 Featured Projects
 
 ### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
-> Radar IA pour Tech Leads freelance · détection de missions et signaux marché caché, scoré par Claude AI
+> AI-powered radar for freelance Tech Leads · detects missions and hidden market signals, scored by Claude AI
 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/prospection-radar)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/prospection-radar)
 [![Claude AI](https://img.shields.io/badge/Claude_AI-fit_scoring-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/prospection-radar)
 [![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/prospection-radar)
 
-- Scraping multi-sources (Freelance.com, Hellowork, Frenchweb)
-- Scoring IA des missions (0–100) selon votre profil, via Claude Sonnet
-- Détection marché caché : levées de fonds, nominations CTO, signaux de recrutement
-- Génération de messages LinkedIn & email personnalisés par Claude
+- Multi-source scraping (Freelance.com, Hellowork, Frenchweb)
+- AI scoring of missions (0–100) based on your profile, via Claude Sonnet
+- Hidden market detection: funding rounds, CTO appointments, hiring signals
+- Personalized LinkedIn & email message generation by Claude
 
 ```mermaid
 flowchart LR
-    A[Sources: Freelance.com<br/>Hellowork · Frenchweb] -->|Scraping| B(Backend Spring Boot)
+    A[Sources: Freelance.com<br/>Hellowork · Frenchweb] -->|Scraping| B(Spring Boot Backend)
     B -->|Scoring 0-100| C{Claude Sonnet}
-    C -->|Mission qualifiée| D[(PostgreSQL)]
-    D --> E[Frontend Angular]
-    C -->|Message généré| F[LinkedIn / Email]
+    C -->|Qualified mission| D[(PostgreSQL)]
+    D --> E[Angular Frontend]
+    C -->|Generated message| F[LinkedIn / Email]
 ```
 
 ---
 
 ### 🎯 [TaskFlow](https://github.com/riadh-mnasri/todolist-app)
-> Full-stack task manager pour Tech Leads · Spring Boot + Angular 17
+> Full-stack task manager for Tech Leads · Spring Boot + Angular 17
 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/todolist-app)
 [![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/todolist-app)
 
-- Gestion de tâches par priorité, client, projet et statut
-- API REST Spring Boot · JPA · H2/PostgreSQL
-- Interface Angular 17 standalone components · Bootstrap 5
+- Task management by priority, client, project and status
+- Spring Boot REST API · JPA · H2/PostgreSQL
+- Angular 17 standalone components UI · Bootstrap 5
 
 ---
 
 ### 🤖 [Freelance Agent](https://github.com/riadh-mnasri/freelance-agent)
-> Agent Python autonome de prospection freelance
+> Autonomous Python agent for freelance prospecting
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python)](https://github.com/riadh-mnasri/freelance-agent)
 
-- Agent de veille et prospection automatisé
-- Digest quotidien des opportunités pertinentes
+- Automated market watch & prospecting agent
+- Daily digest of relevant opportunities
 
 ---
 
 ### 🎤 [Slides Creator](https://github.com/riadh-mnasri/slides-creator)
-> Génération de présentations Reveal.js depuis du HTML
+> Reveal.js presentation generation from HTML
 
 [![Reveal.js](https://img.shields.io/badge/Reveal.js-HTML_slides-white?style=flat-square)](https://github.com/riadh-mnasri/slides-creator)
 
 ---
 
 <a id="posts-linkedin"></a>
-## ✍️ Derniers posts LinkedIn
+## ✍️ Latest LinkedIn Posts
 
-<sub>Mis à jour manuellement via [GitHub Action](.github/workflows/linkedin-posts.yml) (pas de flux RSS public LinkedIn)</sub>
+<sub>Manually updated via [GitHub Action](.github/workflows/linkedin-posts.yml) (no public LinkedIn RSS feed) · posts are in French</sub>
 
 <!-- LINKEDIN-POSTS:START -->
 - [Après plus de 20 ans de développement, je ne pensais pas qu'un assistant IA allait encore me faire évoluer dans ma façon](https://www.linkedin.com/posts/riadhmnasri_apr%C3%A8s-plus-de-20-ans-de-d%C3%A9veloppement-je-activity-7484726238239068160-JU5W) · 19 Jul 2026
@@ -222,7 +222,9 @@ flowchart LR
 ---
 
 <a id="blog"></a>
-## 📝 Derniers articles du blog
+## 📝 Latest Blog Posts
+
+<sub>Posts are in French</sub>
 
 <!-- BLOG-POSTS:START -->
 - 📄 [CI/CD + GitHub Actions + Azure](https://techpassionsharing.com/2026/06/05/ci-cd-github-actions-azure/) · *05 Jun 2026*
@@ -262,15 +264,15 @@ flowchart LR
 ---
 
 <a id="contact"></a>
-## 💬 Contact & Mission
+## 💬 Contact & Missions
 
-Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybride**.
+Available for **Tech Lead Java / Architect** missions, remote / hybrid.
 
-**TJM : 600–900 €/j** · Missions longues durée · Remote / Hybride · Paris
+**Day rate: €600–900** · Long-term missions · Remote / Hybrid · Paris
 
-[![LinkedIn](https://img.shields.io/badge/Me_contacter_sur_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
-[![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)
-[![Blog](https://img.shields.io/badge/Lire_mon_blog_tech-FF6B35?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
+[![LinkedIn](https://img.shields.io/badge/Contact_me_on_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
+[![Portfolio](https://img.shields.io/badge/View_my_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)
+[![Blog](https://img.shields.io/badge/Read_my_tech_blog-FF6B35?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 
 ---
 
