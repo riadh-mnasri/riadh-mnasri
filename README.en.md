@@ -28,10 +28,15 @@
 
 I combine deep backend expertise (Java · Kotlin · Spring Boot · Microservices) with AI tooling adoption (Claude AI · MCP) to deliver scalable, maintainable architectures with strong business impact.
 
+| 👥 Leadership | 📈 Scale | 🔧 Impact |
+|:---|:---|:---|
+| Tech Lead for teams of 10+ developers (SGCIB, BforBank) | Critical real-time systems in market finance, several million transactions | Legacy architecture modernization · reduced technical debt and incidents · faster delivery |
+
 - 🏗️ **Specialty**: Microservices Architecture · DDD · Event-driven · Hexagonal
 - 🤖 **AI Tooling**: Claude API (Anthropic) · autonomous agents · Semantic Kernel · MCP
 - ☁️ **Cloud**: AWS · GCP · Terraform · Docker
 - 🧑‍🏫 **Speaker / Trainer**: JUG Paris · Devoxx · BBL · Meetup
+- ✍️ **Author**: Several technical articles published in [Programmez](https://programmez.com) magazine
 - 🗣️ **Languages**: French (native) · English (fluent)
 - 📍 **Paris** · Remote / Hybrid
 
@@ -120,7 +125,6 @@ I combine deep backend expertise (Java · Kotlin · Spring Boot · Microservices
 | Hands-on Angular | Udemy | 2020 |
 
 </details>
-
 
 ---
 
