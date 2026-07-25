@@ -46,37 +46,37 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ## 🛠️ Tech Stack
 
 ### Backend
-![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-JWT-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-8.7-02303A?style=flat-square&logo=gradle&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17%2B-24292F?style=flat-square&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9-24292F?style=flat-square&logo=kotlin&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-24292F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-JWT-24292F?style=flat-square&logo=springsecurity&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-8.7-24292F?style=flat-square&logo=gradle&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-3.9-24292F?style=flat-square&logo=apachemaven&logoColor=white)
 
 ### Architecture & Messaging
-![Microservices](https://img.shields.io/badge/Microservices-DDD%20%7C%20Hexagonal-0081CB?style=flat-square)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-Event--driven-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![REST](https://img.shields.io/badge/REST-OpenAPI%203-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![Microservices](https://img.shields.io/badge/Microservices-DDD%20%7C%20Hexagonal-24292F?style=flat-square)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-Event--driven-24292F?style=flat-square&logo=apachekafka&logoColor=white)
+![REST](https://img.shields.io/badge/REST-OpenAPI%203-24292F?style=flat-square&logo=swagger&logoColor=white)
 
 ### Frontend
-![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-17-24292F?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-24292F?style=flat-square&logo=typescript&logoColor=white)
 
 ### AI & Agents
 ![Claude AI](https://img.shields.io/badge/Claude_AI-Sonnet_4.6-8B5CF6?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-MCP%20%7C%20Hooks-8B5CF6?style=flat-square)
-![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-Microsoft-5E5E5E?style=flat-square&logo=microsoft)
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-Microsoft-8B5CF6?style=flat-square&logo=microsoft&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-8B5CF6?style=flat-square&logo=python&logoColor=white)
 
 ### En exploration
-[![Rust](https://img.shields.io/badge/Rust-Learning-CE422B?style=flat-square&logo=rust&logoColor=white)](https://github.com/riadh-mnasri/learning-rust)
-![Go](https://img.shields.io/badge/Go-Learning-00ADD8?style=flat-square&logo=go&logoColor=white)
+[![Rust](https://img.shields.io/badge/Rust-Learning-24292F?style=flat-square&logo=rust&logoColor=white)](https://github.com/riadh-mnasri/learning-rust)
+![Go](https://img.shields.io/badge/Go-Learning-24292F?style=flat-square&logo=go&logoColor=white)
 
 ### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-24292F?style=flat-square&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-Platform-24292F?style=flat-square&logo=googlecloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-24292F?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-24292F?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
@@ -136,7 +136,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 [![Build](https://github.com/riadh-mnasri/kotlin-chess-tournament/actions/workflows/ci.yml/badge.svg)](https://github.com/riadh-mnasri/kotlin-chess-tournament/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/kotlin-chess-tournament/blob/main/LICENSE)
-[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-chess-tournament)
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-24292F?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-chess-tournament)
 
 - Swiss pairing (Dutch variant), bye handling, color balancing
 - Elo rating calculation and final standings with tiebreaks (Buchholz, Sonneborn-Berger)
@@ -147,7 +147,7 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 
 [![Build](https://github.com/riadh-mnasri/kotlin-counterparty-risk/actions/workflows/ci.yml/badge.svg)](https://github.com/riadh-mnasri/kotlin-counterparty-risk/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/kotlin-counterparty-risk/blob/main/LICENSE)
-[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-counterparty-risk)
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-24292F?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/kotlin-counterparty-risk)
 
 - Exposure at default (EAD) via a simplified Basel comprehensive approach with regulatory haircuts, for SFTs
 - Expected Loss and simplified CVA
@@ -162,10 +162,10 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ### 🩻 [Hexray](https://github.com/riadh-mnasri/hexray) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > CLI d'audit d'architecture pour projets TypeScript/Kotlin · rapport HTML avec résumé exécutif généré par Claude
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/hexray)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/riadh-mnasri/hexray)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-24292F?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/hexray)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-24292F?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/riadh-mnasri/hexray)
 [![Claude AI](https://img.shields.io/badge/Claude_AI-synth%C3%A8se-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/hexray)
-[![Hexagonal](https://img.shields.io/badge/Architecture-Hexagonal-0081CB?style=flat-square)](https://github.com/riadh-mnasri/hexray)
+[![Hexagonal](https://img.shields.io/badge/Architecture-Hexagonal-24292F?style=flat-square)](https://github.com/riadh-mnasri/hexray)
 
 - Détecte violations de couches (domaine/infrastructure), cycles de dépendances, ratio de la pyramide de tests, fraîcheur des dépendances
 - Priorise les findings et les fait synthétiser par Claude en résumé exécutif avec recommandations
@@ -177,10 +177,10 @@ Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microser
 ### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Radar IA pour Tech Leads freelance · détection de missions et signaux marché caché, scoré par Claude AI
 
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/prospection-radar)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/prospection-radar)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-24292F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/prospection-radar)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-24292F?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/prospection-radar)
 [![Claude AI](https://img.shields.io/badge/Claude_AI-fit_scoring-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/prospection-radar)
-[![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/prospection-radar)
+[![Angular](https://img.shields.io/badge/Angular-17-24292F?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/prospection-radar)
 
 - Scraping multi-sources (Freelance.com, Hellowork, Frenchweb)
 - Scoring IA des missions (0–100) selon votre profil, via Claude Sonnet
