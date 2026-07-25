@@ -24,9 +24,7 @@
 <a id="about-me"></a>
 ## 👋 About Me
 
-Senior Tech Lead & Architect Java, 20+ ans d'expérience dans la conception et le delivery de systèmes distribués critiques : finance de marché (SGCIB), énergie, e-commerce, assurance, des grands groupes aux startups.
-
-![Tech Lead](https://img.shields.io/badge/Tech_Lead-10%2B_devs-2C3E50?style=flat-square) ![Expérience](https://img.shields.io/badge/Exp%C3%A9rience-20%2B_ans-2C3E50?style=flat-square) ![Secteurs](https://img.shields.io/badge/Secteurs-Finance_%C2%B7_%C3%89nergie_%C2%B7_E--commerce_%C2%B7_Assurance-2C3E50?style=flat-square) ![Échelle](https://img.shields.io/badge/%C3%89chelle-Millions_de_transactions-2C3E50?style=flat-square)
+**Senior Tech Lead & Architect Java**, 20+ ans d'expérience dans la conception et le delivery de systèmes distribués critiques : finance de marché (SGCIB), énergie, e-commerce, assurance, des grands groupes aux startups.
 
 Tech Lead d'équipes de 10+ développeurs (SGCIB, BforBank) sur des systèmes critiques temps réel traitant plusieurs millions de transactions. Modernisation d'architectures legacy, réduction de la dette technique et des incidents, delivery accéléré.
 
