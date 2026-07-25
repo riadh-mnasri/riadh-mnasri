@@ -9,7 +9,7 @@
 [![Blog](https://img.shields.io/badge/Blog-techpassionsharing.com-orange?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 [![Available](https://img.shields.io/badge/🟢_Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
 
-### 📬 [Me contacter sur LinkedIn](https://linkedin.com/in/riadhmnasri) · TJM 600–900 €/j · Remote / Hybride Paris
+### 📬 [Me contacter sur LinkedIn](https://linkedin.com/in/riadhmnasri) · TJM 700–900 €/j · Remote / Hybride Paris
 
 </div>
 
@@ -313,7 +313,7 @@ flowchart LR
 
 Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybride**.
 
-**TJM : 600–900 €/j** · Missions longues durée · Remote / Hybride · Paris
+**TJM : 700–900 €/j** · Missions longues durée · Remote / Hybride · Paris
 
 [![LinkedIn](https://img.shields.io/badge/Me_contacter_sur_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
 [![Portfolio](https://img.shields.io/badge/Voir_mon_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)

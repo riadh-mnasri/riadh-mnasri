@@ -9,7 +9,7 @@
 [![Blog](https://img.shields.io/badge/Blog-techpassionsharing.com-orange?style=flat-square&logo=rss&logoColor=white)](https://www.techpassionsharing.com)
 [![Available](https://img.shields.io/badge/🟢_Available-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
 
-### 📬 [Contact me on LinkedIn](https://linkedin.com/in/riadhmnasri) · Day rate €600–900 · Remote / Hybrid · Paris
+### 📬 [Contact me on LinkedIn](https://linkedin.com/in/riadhmnasri) · Day rate €700–900 · Remote / Hybrid · Paris
 
 </div>
 
@@ -315,7 +315,7 @@ flowchart LR
 
 Available for **Tech Lead Java / Architect** missions, remote / hybrid.
 
-**Day rate: €600–900** · Long-term missions · Remote / Hybrid · Paris
+**Day rate: €700–900** · Long-term missions · Remote / Hybrid · Paris
 
 [![LinkedIn](https://img.shields.io/badge/Contact_me_on_LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
 [![Portfolio](https://img.shields.io/badge/View_my_portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)
