@@ -24,21 +24,15 @@
 <a id="about-me"></a>
 ## 👋 About Me
 
-**Senior Tech Lead & Architect Java** with **20+ years of experience** designing and delivering critical distributed systems across sectors (market finance - SGCIB -, energy, e-commerce, insurance), from large groups to startups.
+Senior Tech Lead & Architect Java, 20+ years of experience designing and delivering critical distributed systems: market finance (SGCIB), energy, e-commerce, insurance, from large groups to startups.
 
-I combine deep backend expertise (Java · Kotlin · Spring Boot · Microservices) with AI tooling adoption (Claude AI · MCP) to deliver scalable, maintainable architectures with strong business impact.
+![Tech Lead](https://img.shields.io/badge/Tech_Lead-10%2B_devs-2C3E50?style=flat-square) ![Experience](https://img.shields.io/badge/Experience-20%2B_years-2C3E50?style=flat-square) ![Sectors](https://img.shields.io/badge/Sectors-Finance_%C2%B7_Energy_%C2%B7_E--commerce_%C2%B7_Insurance-2C3E50?style=flat-square) ![Scale](https://img.shields.io/badge/Scale-Millions_of_transactions-2C3E50?style=flat-square)
 
-| 👥 Leadership | 📈 Scale | 🔧 Impact |
-|:---|:---|:---|
-| Tech Lead for teams of 10+ developers (SGCIB, BforBank) | Critical real-time systems in market finance, several million transactions | Legacy architecture modernization · reduced technical debt and incidents · faster delivery |
+Tech Lead for teams of 10+ developers (SGCIB, BforBank) on critical real-time systems handling several million transactions. Legacy architecture modernization, reduced technical debt and incidents, faster delivery.
 
-- 🏗️ **Specialty**: Microservices Architecture · DDD · Event-driven · Hexagonal
-- 🤖 **AI Tooling**: Claude API (Anthropic) · autonomous agents · Semantic Kernel · MCP
-- ☁️ **Cloud**: AWS · GCP · Terraform · Docker
-- 🧑‍🏫 **Speaker / Trainer**: JUG Paris · Devoxx · BBL · Meetup
-- ✍️ **Author**: Several technical articles published in [Programmez](https://programmez.com) magazine
-- 🗣️ **Languages**: French (native) · English (fluent)
-- 📍 **Paris** · Remote / Hybrid
+Backend Java/Kotlin/Spring Boot in microservices architecture (DDD, event-driven, hexagonal), cloud AWS/GCP/Terraform/Docker. Since 2024 I've been integrating generative AI (Claude, MCP, autonomous agents) into my development practice.
+
+Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articles in [Programmez](https://programmez.com) magazine. Native French, fluent English. Based in Paris, remote or hybrid.
 
 ---
 
