@@ -24,7 +24,7 @@
 <a id="about-me"></a>
 ## 👋 About Me
 
-**Senior Tech Lead & Architect Java** avec **20+ ans d'expérience** dans la conception et le delivery de systèmes distribués critiques, de la finance de marché (SGCIB) aux startups.
+**Senior Tech Lead & Architect Java** avec **20+ ans d'expérience** dans la conception et le delivery de systèmes distribués critiques, dans des secteurs variés (finance de marché — SGCIB —, énergie, e-commerce, assurance), des grands groupes aux startups.
 
 Je combine expertise backend profonde (Java · Kotlin · Spring Boot · Microservices) et adoption des outils IA (Claude AI · MCP) pour livrer des architectures scalables, maintenables, et à fort impact business.
 
