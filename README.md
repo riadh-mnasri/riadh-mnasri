@@ -17,7 +17,7 @@
 
 ## 📑 Sommaire
 
-[About Me](#about-me) · [Tech Stack](#tech-stack) · [Formation](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Posts LinkedIn](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
+[About Me](#about-me) · [Tech Stack](#tech-stack) · [Formation](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Recommandations](#recommandations) · [Posts LinkedIn](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
 
 ---
 
@@ -194,64 +194,14 @@ flowchart LR
 
 ---
 
-### 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch)
-> App de référence pour le matching freelance/missions · démonstrateur DDD, Hexagonal, TDD/BDD et Event-driven
+### Autres projets
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/missionmatch)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-Hexagonal-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/missionmatch)
-[![Angular](https://img.shields.io/badge/Angular-DDD-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/missionmatch)
-[![Kafka](https://img.shields.io/badge/Apache_Kafka-Event--driven-231F20?style=flat-square&logo=apachekafka&logoColor=white)](https://github.com/riadh-mnasri/missionmatch)
-[![Terraform](https://img.shields.io/badge/Terraform-AWS-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/riadh-mnasri/missionmatch)
-
-- Matching automatique profil freelance (compétences, TJM, disponibilité) vs missions entrantes, suivi du pipeline jusqu'au contrat signé
-- Architecture hexagonale (ports & adapters) sur chaque module backend, DDD avec bounded contexts et ubiquitous language
-- Communication événementielle inter-contextes via Kafka
-- Infra as Code : déploiement AWS via modules Terraform
-- Documentation pédagogique complète (FR/EN) de chaque pratique : DDD, Hexagonal, TDD, BDD
-
----
-
-### 📋 [Taskly](https://taskly-frontend-brown.vercel.app)
-> App de gestion de tâches gamifiée pour collégiens · Kotlin/Spring Boot (hexagonal + DDD) + Angular 18
-
-[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/taskly)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-Hexagonal-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/taskly)
-[![Angular](https://img.shields.io/badge/Angular-18-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/taskly)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/riadh-mnasri/taskly)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/taskly/blob/main/LICENSE)
-
-- Architecture hexagonale + DDD, backend Kotlin/Spring Boot, PostgreSQL
-- Kanban, calendrier, statistiques et gamification (XP, badges)
-- [Démo live](https://taskly-frontend-brown.vercel.app) (identifiants de démo fournis) · [API](https://taskly-backend-4nh4.onrender.com/swagger-ui.html)
-
----
-
-### 🎓 [Claude Expert](https://claude-expert.vercel.app)
-> Formation interactive pour maîtriser Claude Code · 12 modules, 144 questions de quiz, tableau de bord de progression
-
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=nextdotjs)](https://github.com/riadh-mnasri/claude-expert)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/claude-expert)
-[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)](https://github.com/riadh-mnasri/claude-expert)
-
-- 12 modules progressifs couvrant Claude Code de bout en bout
-- 144 questions de quiz avec suivi de progression
-- [Démo live](https://claude-expert.vercel.app)
-
----
-
-### ♟️ [ChessCoach.ai](https://github.com/riadh-mnasri/chesscoach-ai)
-> Coach d'échecs propulsé par l'IA · analyse Stockfish et coaching personnalisé par Claude
-
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/chesscoach-ai)
-[![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/chesscoach-ai)
-[![Claude AI](https://img.shields.io/badge/Claude-Opus_4-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/chesscoach-ai)
-[![Stockfish](https://img.shields.io/badge/Stockfish-16-8B4513?style=flat-square)](https://github.com/riadh-mnasri/chesscoach-ai)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/riadh-mnasri/chesscoach-ai/blob/main/LICENSE)
-
-- Import automatique des parties depuis chess.com et lichess, déduplication
-- Analyse coup par coup avec Stockfish 16 (profondeur 20) et classification (brillant / bon / imprécision / erreur / gaffe)
-- Coaching en langage naturel par Claude Opus : explication des erreurs, plan de progression personnalisé
-- Revue de partie interactive : échiquier synchronisé, barre d'évaluation, explication à la demande
+| Projet | Description | Stack |
+|---|---|---|
+| 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch) | Démonstrateur DDD, Hexagonal, TDD/BDD et Event-driven pour le matching freelance/missions | Kotlin · Spring Boot · Angular · Kafka · Terraform |
+| 📋 [Taskly](https://taskly-frontend-brown.vercel.app) | App de gestion de tâches gamifiée pour collégiens ([démo](https://taskly-frontend-brown.vercel.app)) | Kotlin · Spring Boot · Angular · PostgreSQL |
+| 🎓 [Claude Expert](https://claude-expert.vercel.app) | Formation interactive Claude Code · 12 modules, 144 questions de quiz | Next.js · TypeScript · Tailwind |
+| ♟️ [ChessCoach.ai](https://github.com/riadh-mnasri/chesscoach-ai) | Coach d'échecs IA · analyse Stockfish et coaching personnalisé par Claude | Spring Boot · Angular · Claude · Stockfish |
 
 ---
 
@@ -285,26 +235,44 @@ flowchart LR
 <div align="center">
 
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=riadh-mnasri&theme=github_dark)
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=riadh-mnasri&theme=github_dark)
-
-![Most Committed](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=riadh-mnasri&theme=github_dark)
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=riadh-mnasri&theme=github_dark)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=riadh-mnasri&theme=dark&hide_border=true)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=riadh-mnasri&theme=react-dark&hide_border=true&area=true)
 
 </div>
 
----
-
-## 🏅 GitHub Trophies
+<details>
+<summary>📈 Plus de stats (langages, activité, trophées)</summary>
 
 <div align="center">
+
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=riadh-mnasri&theme=github_dark)
+![Most Committed](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=riadh-mnasri&theme=github_dark)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=riadh-mnasri&theme=github_dark)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=riadh-mnasri&theme=react-dark&hide_border=true&area=true)
 
 [![Trophies](https://github-trophies.vercel.app/?username=riadh-mnasri&theme=darkhub&no-frame=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/riadh-mnasri)
 
 </div>
+
+</details>
+
+---
+
+<a id="recommandations"></a>
+## 🗣️ Ils me recommandent
+
+> « J'ai eu le privilège de travailler avec Riadh chez BforBank. Riadh est passionné par son travail. Il aime apprendre de nouvelles techniques et de nouvelles technologies pour s'améliorer. Il est capable de s'intégrer parfaitement dans n'importe quel environnement. »
+>
+> **Dimitri Kahn** · Développeur Full Stack chez Edelia (Groupe EDF) · a travaillé avec Riadh dans la même équipe
+
+> « Riadh est un développeur Java et Kotlin solide et passionné. La qualité et le travail bien fait sont très importants pour lui. Il aime aussi découvrir et explorer de nouveaux frameworks et technologies. C'est également un excellent intervenant pour partager ses connaissances lors d'événements tech (comme les BBL, Brown Bag Lunch). Si vous cherchez un développeur senior solide, je vous recommande chaleureusement Riadh. »
+>
+> **Romain Schlick** · Technical Leader & Senior Developer (Java/Kotlin/Spring/AWS) · a travaillé avec Riadh dans la même équipe
+
+> « Riadh a travaillé dans mon équipe sur des projets stratégiques et a su démontrer pendant sa mission un goût évident pour la technique ainsi qu'une prise de recul et une analyse génératrices d'une véritable valeur ajoutée. J'ai par ailleurs apprécié la personnalité de Riadh qui a très bien intégré une équipe en place tout en proposant et défendant ses opinions de façon constructive. »
+>
+> **David Martin** · Customer Success, Professional Services, Presales & Support Director · manager direct de Riadh
+
+<sub>Recommandations issues de LinkedIn · [voir toutes mes recommandations →](https://linkedin.com/in/riadhmnasri)</sub>
 
 ---
 
