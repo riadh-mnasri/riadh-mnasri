@@ -167,26 +167,16 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 ---
 
 ### 📡 Prospection Radar ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
-> AI-powered radar for freelance Tech Leads · detects missions and hidden market signals, scored by Claude AI
+> AI-powered radar for freelance Tech Leads: identifies and prioritizes the best mission opportunities, before they become competitive.
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin)
 ![Claude AI](https://img.shields.io/badge/Claude_AI-fit_scoring-8B5CF6?style=flat-square)
 ![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)
 
-- Multi-source scraping (Freelance.com, Hellowork, Frenchweb)
-- AI scoring of missions (0–100) based on your profile, via Claude Sonnet
-- Hidden market detection: funding rounds, CTO appointments, hiring signals
-- Personalized LinkedIn & email message generation by Claude
-
-```mermaid
-flowchart LR
-    A[Sources: Freelance.com<br/>Hellowork · Frenchweb] -->|Scraping| B(Spring Boot Backend)
-    B -->|Scoring 0-100| C{Claude Sonnet}
-    C -->|Qualified mission| D[(PostgreSQL)]
-    D --> E[Angular Frontend]
-    C -->|Generated message| F[LinkedIn / Email]
-```
+- Automated watch and prioritization of opportunities based on my profile
+- Scoring by Claude AI
+- Personalized first-contact suggestions
 
 ---
 
