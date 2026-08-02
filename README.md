@@ -166,13 +166,13 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) et auteur de plusieurs articles techni
 
 ---
 
-### 📡 [Prospection Radar](https://github.com/riadh-mnasri/prospection-radar) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
+### 📡 Prospection Radar ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Radar IA pour Tech Leads freelance · détection de missions et signaux marché caché, scoré par Claude AI
 
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)](https://github.com/riadh-mnasri/prospection-radar)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin)](https://github.com/riadh-mnasri/prospection-radar)
-[![Claude AI](https://img.shields.io/badge/Claude_AI-fit_scoring-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/prospection-radar)
-[![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://github.com/riadh-mnasri/prospection-radar)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin)
+![Claude AI](https://img.shields.io/badge/Claude_AI-fit_scoring-8B5CF6?style=flat-square)
+![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)
 
 - Scraping multi-sources (Freelance.com, Hellowork, Frenchweb)
 - Scoring IA des missions (0–100) selon votre profil, via Claude Sonnet
@@ -197,7 +197,7 @@ flowchart LR
 | 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch) | Démonstrateur DDD, Hexagonal, TDD/BDD et Event-driven pour le matching freelance/missions | Kotlin · Spring Boot · Angular · Kafka · Terraform |
 | 📋 [Taskly](https://taskly-frontend-brown.vercel.app) | App de gestion de tâches gamifiée pour collégiens ([démo](https://taskly-frontend-brown.vercel.app)) | Kotlin · Spring Boot · Angular · PostgreSQL |
 | 🎓 [Claude Expert](https://claude-expert.vercel.app) | Formation interactive Claude Code · 12 modules, 144 questions de quiz | Next.js · TypeScript · Tailwind |
-| ♟️ [ChessCoach.ai](https://github.com/riadh-mnasri/chesscoach-ai) | Coach d'échecs IA · analyse Stockfish et coaching personnalisé par Claude | Spring Boot · Angular · Claude · Stockfish |
+| ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | Coach d'échecs IA · analyse Stockfish et coaching personnalisé par Claude | Spring Boot · Angular · Claude · Stockfish |
 
 ---
 
