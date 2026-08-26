@@ -51,11 +51,13 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 ![REST](https://img.shields.io/badge/REST-OpenAPI%203-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 
 ### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 ### AI & Agents
-![Claude AI](https://img.shields.io/badge/Claude_AI-Sonnet_4.6-8B5CF6?style=flat-square)
+![Claude AI](https://img.shields.io/badge/Claude_AI-Sonnet_5-8B5CF6?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-MCP%20%7C%20Hooks-8B5CF6?style=flat-square)
 ![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-Microsoft-5E5E5E?style=flat-square&logo=microsoft)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -69,6 +71,7 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 ![GCP](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
@@ -151,6 +154,21 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 <a id="featured-projects"></a>
 ## 🚀 Featured Projects
 
+### ♟️ [RiaChess](https://riachess.com) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
+> 100% online chess academy: interactive lessons, daily puzzle, games and tournaments between members, live coaching via premium subscription
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://riachess.com)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://riachess.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://riachess.com)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://riachess.com)
+
+- 40+ free lessons and articles organized by level and topic, each with a quiz, a daily-streak puzzle, and unlimited tactics training
+- Member area: progression, XP, badges, online games between members, tournaments pulled live from the Lichess API
+- Automated weekly newsletter (Vercel cron, Resend) with an on-the-fly generated chessboard image
+- Live product in production, private source code
+
+---
+
 ### 🩻 [Hexray](https://github.com/riadh-mnasri/hexray) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Architecture audit CLI for TypeScript/Kotlin projects · self-contained HTML report with a Claude-generated executive summary
 
@@ -163,6 +181,19 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 - Prioritizes findings and has Claude synthesize them into an executive summary with recommendations
 - Self-contained HTML report, designed to be readable by a client or recruiter in a few seconds
 - Hexagonal architecture: pure domain, ports/adapters (dependency-cruiser, Claude; Detekt/ArchUnit planned)
+
+---
+
+### 🛫 [Tarmac](https://github.com/riadh-mnasri/tarmac) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
+> Visual workshop to build, validate, launch and track Claude Code skills and agents
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/riadh-mnasri/tarmac)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/tarmac)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-MCP%20%7C%20Skills-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/tarmac)
+
+- Editor with live validation of skills/agents YAML frontmatter
+- Launcher that actually runs the skill via the official `claude` CLI, with live streaming of results
+- Full history of every run (result, duration, cost)
 
 ---
 
@@ -188,6 +219,8 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 | 📋 [Taskly](https://taskly-frontend-brown.vercel.app) | Gamified task management app for middle schoolers ([demo](https://taskly-frontend-brown.vercel.app)) | Kotlin · Spring Boot · Angular · PostgreSQL |
 | 🎓 [Claude Expert](https://claude-expert.vercel.app) | Interactive Claude Code training · 12 modules, 144 quiz questions | Next.js · TypeScript · Tailwind |
 | ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | AI-powered chess coach · Stockfish analysis and personalized coaching by Claude | Spring Boot · Angular · Claude · Stockfish |
+| 🐝 [Ruche](https://ruche-zeta.vercel.app) | Weekly household chore schedule with fair-share tracking across family members ([demo](https://ruche-zeta.vercel.app)) | Next.js · TypeScript · Tailwind |
+| 🎯 [AceReady](https://aceready.vercel.app) | Java/Cloud/Data/AI technical interview training, with corrections covering common traps ([demo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
 
 ---
 
