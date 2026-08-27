@@ -257,7 +257,7 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 <div align="center">
 
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=riadh-mnasri&theme=github_dark)
-![GitHub Streak](https://streak-stats.demolab.com?user=riadh-mnasri&theme=dark&hide_border=true)
+![GitHub Streak](./assets/stats/streak.svg)
 
 </div>
 
@@ -269,7 +269,7 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=riadh-mnasri&theme=github_dark)
 ![Most Committed](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=riadh-mnasri&theme=github_dark)
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=riadh-mnasri&theme=github_dark)
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=riadh-mnasri&theme=react-dark&hide_border=true&area=true)
+![Activity Graph](./assets/stats/activity-graph.svg)
 
 [![Trophies](https://github-trophies.vercel.app/?username=riadh-mnasri&theme=darkhub&no-frame=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/riadh-mnasri)
 

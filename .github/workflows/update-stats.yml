@@ -1,0 +1,49 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # tous les jours à 04:00 UTC
+  push:
+    paths:
+      - ".github/workflows/update-stats.yml"
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=riadh-mnasri&theme=dark&hide_border=true
+          path: assets/stats/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate activity graph
+        run: |
+          mkdir -p assets/stats
+          if curl -sf --retry 5 --retry-delay 15 --retry-all-errors -A "Mozilla/5.0" \
+            "https://github-readme-activity-graph.vercel.app/graph?username=riadh-mnasri&theme=react-dark&hide_border=true&area=true" \
+            -o assets/stats/activity-graph.svg.tmp \
+            && [ -s assets/stats/activity-graph.svg.tmp ] \
+            && grep -q "<svg" assets/stats/activity-graph.svg.tmp; then
+            mv assets/stats/activity-graph.svg.tmp assets/stats/activity-graph.svg
+          else
+            echo "Activity graph generation failed or returned invalid SVG, keeping previous version."
+            rm -f assets/stats/activity-graph.svg.tmp
+          fi
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/streak.svg assets/stats/activity-graph.svg
+          git diff --quiet --cached && echo "Nothing to commit." && exit 0
+          git commit -m "chore(stats): refresh GitHub stats SVGs [$(date +'%Y-%m-%d')]"
+          git pull --rebase origin main
+          git push
