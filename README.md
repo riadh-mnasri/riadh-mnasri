@@ -221,6 +221,8 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) et auteur de plusieurs articles techni
 | ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | Coach d'échecs IA · analyse Stockfish et coaching personnalisé par Claude | Spring Boot · Angular · Claude · Stockfish |
 | 🐝 [Ruche](https://ruche-zeta.vercel.app) | Emploi du temps hebdomadaire des tâches familiales et suivi de la répartition de charge ([démo](https://ruche-zeta.vercel.app)) | Next.js · TypeScript · Tailwind |
 | 🎯 [AceReady](https://aceready.vercel.app) | Entraînement aux entretiens techniques Java/Cloud/Data/IA, correction avec pièges classiques ([démo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
+| 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Code source de mon portfolio personnel ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
+| 🏢 [WeHighTech](https://wehightech.org) | Site vitrine d'une société de services technologiques (IA, dev logiciel, transformation digitale, data & cybersécurité) | Next.js 16 · React 19 · Tailwind CSS 4 |
 
 ---
 
