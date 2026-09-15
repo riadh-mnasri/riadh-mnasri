@@ -233,20 +233,6 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 
 ---
 
-### 📡 Prospection Radar
-> Radar IA pour Tech Leads freelance : identifie et priorise les meilleures opportunités de mission, avant qu'elles ne deviennent compétitives.
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)
-![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=flat-square&logo=kotlin)
-![Claude AI](https://img.shields.io/badge/Claude_AI-fit_scoring-8B5CF6?style=flat-square)
-![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)
-
-- Veille automatisée et priorisation des opportunités selon mon profil
-- Scoring par Claude AI
-- Suggestions de premier contact personnalisées
-
----
-
 ### Autres projets
 
 | Aperçu | Projet | Description | Stack |
