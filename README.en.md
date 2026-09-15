@@ -244,16 +244,16 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 
 ### Other projects
 
-| Project | Description | Stack |
-|---|---|---|
-| 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch) | Showcases DDD, Hexagonal, TDD/BDD and Event-driven design for freelance/mission matching | Kotlin · Spring Boot · Angular · Kafka · Terraform |
-| 📋 [Taskly](https://taskly-frontend-brown.vercel.app) | Gamified task management app for middle schoolers ([demo](https://taskly-frontend-brown.vercel.app)) | Kotlin · Spring Boot · Angular · PostgreSQL |
-| 🎓 [Claude Expert](https://claude-expert.vercel.app) | Interactive Claude Code training · 12 modules, 144 quiz questions | Next.js · TypeScript · Tailwind |
-| ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | AI-powered chess coach · Stockfish analysis and personalized coaching by Claude | Spring Boot · Angular · Claude · Stockfish |
-| 🐝 [Ruche](https://ruche-zeta.vercel.app) | Weekly household chore schedule with fair-share tracking across family members ([demo](https://ruche-zeta.vercel.app)) | Next.js · TypeScript · Tailwind |
-| 🎯 [AceReady](https://aceready.vercel.app) | Java/Cloud/Data/AI technical interview training, with corrections covering common traps ([demo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
-| 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Source code of my personal portfolio ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
-| 🏢 [WeHighTech](https://wehightech.org) | Showcase site for a tech services company (AI, software dev, digital transformation, data & cybersecurity) | Next.js 16 · React 19 · Tailwind CSS 4 |
+| Preview | Project | Description | Stack |
+|---|---|---|---|
+| | 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch) | Showcases DDD, Hexagonal, TDD/BDD and Event-driven design for freelance/mission matching | Kotlin · Spring Boot · Angular · Kafka · Terraform |
+| | 📋 [Taskly](https://taskly-frontend-brown.vercel.app) | Gamified task management app for middle schoolers ([demo](https://taskly-frontend-brown.vercel.app)) — ⚠️ demo currently shows a blank page, needs fixing | Kotlin · Spring Boot · Angular · PostgreSQL |
+| <img src="./assets/screenshots/claude-expert.jpg" width="200"> | 🎓 [Claude Expert](https://claude-expert.vercel.app) | Interactive Claude Code training · 12 modules, 144 quiz questions | Next.js · TypeScript · Tailwind |
+| <img src="./assets/screenshots/chesscoach-ai.jpg" width="200"> | ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | AI-powered chess coach · Stockfish analysis and personalized coaching by Claude | Spring Boot · Angular · Claude · Stockfish |
+| | 🐝 [Ruche](https://ruche-zeta.vercel.app) | Weekly household chore schedule with fair-share tracking across family members ([demo](https://ruche-zeta.vercel.app)) | Next.js · TypeScript · Tailwind |
+| <img src="./assets/screenshots/aceready.jpg" width="200"> | 🎯 [AceReady](https://aceready.vercel.app) | Java/Cloud/Data/AI technical interview training, with corrections covering common traps ([demo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
+| | 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Source code of my personal portfolio ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
+| <img src="./assets/screenshots/wehightech.jpg" width="200"> | 🏢 [WeHighTech](https://wehightech.org) | Showcase site for a tech services company (AI, software dev, digital transformation, data & cybersecurity) | Next.js 16 · React 19 · Tailwind CSS 4 |
 
 ---
 
