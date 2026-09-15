@@ -17,7 +17,7 @@
 
 ## 📑 Sommaire
 
-[About Me](#about-me) · [Tech Stack](#tech-stack) · [Formation](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Recommandations](#recommandations) · [Posts LinkedIn](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
+[About Me](#about-me) · [Expérience](#experience) · [IA en pratique](#ia-en-pratique) · [Tech Stack](#tech-stack) · [Formation](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Recommandations](#recommandations) · [Posts LinkedIn](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
 
 ---
 
@@ -31,6 +31,35 @@ Tech Lead d'équipes de 10+ développeurs (SGCIB, BforBank) sur des systèmes cr
 Backend Java/Kotlin/Spring Boot en architecture microservices (DDD, event-driven, hexagonale), cloud AWS/GCP/Terraform/Docker. Depuis 2024 j'intègre l'IA générative (Claude, MCP, agents autonomes) dans mes pratiques de développement.
 
 Speaker (JUG Paris, Devoxx, BBL, meetups) et auteur de plusieurs articles techniques dans le magazine [Programmez](https://programmez.com). Français natif, anglais courant. Basé à Paris, en remote ou hybride.
+
+---
+
+<a id="experience"></a>
+## 🧭 Expérience
+
+Missions freelance délivrées via [WeHighTech](https://wehightech.org) (société fondée en 2017).
+
+| Période | Entreprise | Rôle |
+|---|---|---|
+| Août 2026 – présent | Cartan Trade | Senior Tech Lead & Architect |
+| Jan 2024 – Août 2026 | Société Générale CIB (SGCIB) | Technical Leader Java Spark Azure AI |
+| Mar 2022 – Fév 2024 | GRTgaz | Technical Leader Fullstack Java Angular AWS Terraform |
+| Jan 2021 – Mar 2022 | Groupe Casino | Lead Backend Developer Java Kotlin GCP |
+| Jun 2020 – Jan 2021 | Ministère de la Justice | Technical Leader Full Stack |
+
+<sub>Historique complet et détails de mission → [portfolio](https://www.riadh-mnasri.pro)</sub>
+
+---
+
+<a id="ia-en-pratique"></a>
+## 🤖 IA en pratique
+
+Pas juste des badges : voici comment l'IA générative s'intègre concrètement à mon quotidien de dev.
+
+- **En mission** : intégration de Claude/Copilot dans le cycle de dev (SGCIB : ~+30% de vélocité), et chez Cartan Trade construction de modèles de risque de crédit assistés par les APIs Claude
+- **[Tarmac](https://github.com/riadh-mnasri/tarmac)** : atelier que j'ai construit pour éditer, valider et lancer mes propres skills/agents Claude Code, avec streaming des résultats et historique des runs
+- **[Hexray](https://github.com/riadh-mnasri/hexray)** : CLI d'audit d'architecture où Claude synthétise les findings bruts en résumé exécutif lisible par un client
+- **Outillage perso** : une trentaine de skills Claude Code maison (revue de code, veille dépendances/sécurité, suivi de déploiements) qui pilotent mon propre portefeuille de projets au quotidien
 
 ---
 
@@ -157,6 +186,8 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) et auteur de plusieurs articles techni
 ### ♟️ [RiaChess](https://riachess.com) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Académie d'échecs 100% en ligne : leçons interactives, puzzle du jour, parties et tournois entre membres, coaching en direct par abonnement premium
 
+<img src="./assets/screenshots/riachess.jpg" alt="Aperçu de RiaChess" width="600">
+
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://riachess.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://riachess.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://riachess.com)
@@ -197,7 +228,7 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) et auteur de plusieurs articles techni
 
 ---
 
-### 📡 Prospection Radar ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
+### 📡 Prospection Radar
 > Radar IA pour Tech Leads freelance : identifie et priorise les meilleures opportunités de mission, avant qu'elles ne deviennent compétitives.
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)
@@ -313,4 +344,6 @@ Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybri
 
 <div align="center">
   <i>Built with ❤️ by Riadh MNASRI</i>
+  <br>
+  <sub><!-- LAST-CHECK:START -->Dernière vérification automatique : 15 Sep 2026<!-- LAST-CHECK:END --></sub>
 </div>

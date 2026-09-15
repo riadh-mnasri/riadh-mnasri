@@ -17,7 +17,7 @@
 
 ## 📑 Table of Contents
 
-[About Me](#about-me) · [Tech Stack](#tech-stack) · [Education](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Recommendations](#recommandations) · [LinkedIn Posts](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
+[About Me](#about-me) · [Experience](#experience) · [AI in Practice](#ia-en-pratique) · [Tech Stack](#tech-stack) · [Education](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Recommendations](#recommandations) · [LinkedIn Posts](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
 
 ---
 
@@ -31,6 +31,35 @@ Tech Lead for teams of 10+ developers (SGCIB, BforBank) on critical real-time sy
 Backend Java/Kotlin/Spring Boot in microservices architecture (DDD, event-driven, hexagonal), cloud AWS/GCP/Terraform/Docker. Since 2024 I've been integrating generative AI (Claude, MCP, autonomous agents) into my development practice.
 
 Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articles in [Programmez](https://programmez.com) magazine. Native French, fluent English. Based in Paris, remote or hybrid.
+
+---
+
+<a id="experience"></a>
+## 🧭 Experience
+
+Freelance missions delivered through [WeHighTech](https://wehightech.org) (company founded in 2017).
+
+| Period | Company | Role |
+|---|---|---|
+| Aug 2026 – present | Cartan Trade | Senior Tech Lead & Architect |
+| Jan 2024 – Aug 2026 | Société Générale CIB (SGCIB) | Technical Leader Java Spark Azure AI |
+| Mar 2022 – Feb 2024 | GRTgaz | Technical Leader Fullstack Java Angular AWS Terraform |
+| Jan 2021 – Mar 2022 | Groupe Casino | Lead Backend Developer Java Kotlin GCP |
+| Jun 2020 – Jan 2021 | Ministère de la Justice | Technical Leader Full Stack |
+
+<sub>Full history and mission details → [portfolio](https://www.riadh-mnasri.pro)</sub>
+
+---
+
+<a id="ia-en-pratique"></a>
+## 🤖 AI in Practice
+
+Not just badges: here's how generative AI actually fits into my day-to-day work.
+
+- **On mission**: Claude/Copilot integrated into the dev cycle (SGCIB: ~+30% velocity), and at Cartan Trade building credit risk models assisted by the Claude APIs
+- **[Tarmac](https://github.com/riadh-mnasri/tarmac)**: a workshop I built to edit, validate and launch my own Claude Code skills/agents, with live run streaming and history
+- **[Hexray](https://github.com/riadh-mnasri/hexray)**: architecture audit CLI where Claude synthesizes raw findings into an executive summary a client can actually read
+- **Personal tooling**: about thirty homemade Claude Code skills (code review, dependency/security watch, deployment tracking) running my own project portfolio day to day
 
 ---
 
@@ -157,6 +186,8 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 ### ♟️ [RiaChess](https://riachess.com) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > 100% online chess academy: interactive lessons, daily puzzle, games and tournaments between members, live coaching via premium subscription
 
+<img src="./assets/screenshots/riachess.jpg" alt="RiaChess preview" width="600">
+
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://riachess.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://riachess.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://riachess.com)
@@ -197,7 +228,7 @@ Speaker (JUG Paris, Devoxx, BBL, meetups) and author of several technical articl
 
 ---
 
-### 📡 Prospection Radar ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
+### 📡 Prospection Radar
 > AI-powered radar for freelance Tech Leads: identifies and prioritizes the best mission opportunities, before they become competitive.
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot)
@@ -315,4 +346,6 @@ Available for **Tech Lead Java / Architect** missions, remote / hybrid.
 
 <div align="center">
   <i>Built with ❤️ by Riadh MNASRI</i>
+  <br>
+  <sub><!-- LAST-CHECK:START -->Last automated check: 15 Sep 2026<!-- LAST-CHECK:END --></sub>
 </div>

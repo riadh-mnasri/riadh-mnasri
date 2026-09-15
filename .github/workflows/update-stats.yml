@@ -38,11 +38,17 @@ jobs:
             rm -f assets/stats/activity-graph.svg.tmp
           fi
 
+      - name: Stamp last-check date in README
+        run: |
+          today=$(date -u +'%d %b %Y')
+          sed -i -E "s#<!-- LAST-CHECK:START -->.*<!-- LAST-CHECK:END -->#<!-- LAST-CHECK:START -->Dernière vérification automatique : ${today}<!-- LAST-CHECK:END -->#" README.md
+          sed -i -E "s#<!-- LAST-CHECK:START -->.*<!-- LAST-CHECK:END -->#<!-- LAST-CHECK:START -->Last automated check: ${today}<!-- LAST-CHECK:END -->#" README.en.md
+
       - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/stats/streak.svg assets/stats/activity-graph.svg
+          git add assets/stats/streak.svg assets/stats/activity-graph.svg README.md README.en.md
           git diff --quiet --cached && echo "Nothing to commit." && exit 0
           git commit -m "chore(stats): refresh GitHub stats SVGs [$(date +'%Y-%m-%d')]"
           git pull --rebase origin main
