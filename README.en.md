@@ -203,6 +203,9 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 ### 🩻 [Hexray](https://github.com/riadh-mnasri/hexray) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Architecture audit CLI for TypeScript/Kotlin projects · self-contained HTML report with a Claude-generated executive summary
 
+<img src="./assets/screenshots/hexray.jpg" alt="Sample Hexray report" width="600">
+<sub>Illustrative example (demo summary and findings, real report structure)</sub>
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/hexray)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/riadh-mnasri/hexray)
 [![Claude AI](https://img.shields.io/badge/Claude_AI-synthesis-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/hexray)
@@ -217,6 +220,8 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 
 ### 🛫 [Tarmac](https://github.com/riadh-mnasri/tarmac) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Visual workshop to build, validate, launch and track Claude Code skills and agents
+
+<img src="./assets/screenshots/tarmac.jpg" alt="Tarmac catalog preview" width="600">
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/riadh-mnasri/tarmac)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/tarmac)

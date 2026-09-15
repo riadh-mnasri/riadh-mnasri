@@ -203,6 +203,9 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 ### 🩻 [Hexray](https://github.com/riadh-mnasri/hexray) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > CLI d'audit d'architecture pour projets TypeScript/Kotlin · rapport HTML avec résumé exécutif généré par Claude
 
+<img src="./assets/screenshots/hexray.jpg" alt="Exemple de rapport Hexray" width="600">
+<sub>Exemple illustratif (résumé et findings de démonstration, structure réelle du rapport)</sub>
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/hexray)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/riadh-mnasri/hexray)
 [![Claude AI](https://img.shields.io/badge/Claude_AI-synth%C3%A8se-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/hexray)
@@ -217,6 +220,8 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 
 ### 🛫 [Tarmac](https://github.com/riadh-mnasri/tarmac) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Atelier visuel pour créer, valider, lancer et suivre des skills et agents Claude Code
+
+<img src="./assets/screenshots/tarmac.jpg" alt="Aperçu du catalogue Tarmac" width="600">
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/riadh-mnasri/tarmac)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/tarmac)
