@@ -245,6 +245,8 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 | <img src="./assets/screenshots/aceready.jpg" width="200"> | 🎯 [AceReady](https://aceready.vercel.app) | Java/Cloud/Data/AI technical interview training, with corrections covering common traps ([demo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
 | | 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Source code of my personal portfolio ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
 | <img src="./assets/screenshots/wehightech.jpg" width="200"> | 🏢 [WeHighTech](https://wehightech.org) | Showcase site for a tech services company (AI, software dev, digital transformation, data & cybersecurity) | Next.js 16 · React 19 · Tailwind CSS 4 |
+| | 📰 [tech-pulse](https://tech-pulse-weld.vercel.app) | Aggregated tech watch (Hacker News, Reddit, GitHub Trending, RSS) with a daily AI-generated digest ([demo](https://tech-pulse-weld.vercel.app)) | Next.js · TypeScript · Claude API |
+| | 🎙️ [talk-reps](https://talk-reps.vercel.app) | Bank of short scripts to practice speaking in front of a camera or mic, fully local browser recording ([demo](https://talk-reps.vercel.app)) | Next.js · TypeScript · MediaRecorder |
 
 ---
 

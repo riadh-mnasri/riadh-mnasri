@@ -245,6 +245,8 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 | <img src="./assets/screenshots/aceready.jpg" width="200"> | 🎯 [AceReady](https://aceready.vercel.app) | Entraînement aux entretiens techniques Java/Cloud/Data/IA, correction avec pièges classiques ([démo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
 | | 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Code source de mon portfolio personnel ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
 | <img src="./assets/screenshots/wehightech.jpg" width="200"> | 🏢 [WeHighTech](https://wehightech.org) | Site vitrine d'une société de services technologiques (IA, dev logiciel, transformation digitale, data & cybersécurité) | Next.js 16 · React 19 · Tailwind CSS 4 |
+| | 📰 [tech-pulse](https://tech-pulse-weld.vercel.app) | Veille technologique agrégée (Hacker News, Reddit, GitHub Trending, RSS) avec résumé quotidien par IA ([démo](https://tech-pulse-weld.vercel.app)) | Next.js · TypeScript · Claude API |
+| | 🎙️ [talk-reps](https://talk-reps.vercel.app) | Banque de scripts courts pour s'entraîner à parler devant caméra/micro, enregistrement 100% local ([démo](https://talk-reps.vercel.app)) | Next.js · TypeScript · MediaRecorder |
 
 ---
 
