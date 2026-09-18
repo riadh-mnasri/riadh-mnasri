@@ -338,5 +338,5 @@ Disponible pour des missions **Tech Lead Java / Architecte** en **remote / hybri
 <div align="center">
   <i>Built with ❤️ by Riadh MNASRI</i>
   <br>
-  <sub><!-- LAST-CHECK:START -->Dernière vérification automatique : 17 Sep 2026<!-- LAST-CHECK:END --></sub>
+  <sub><!-- LAST-CHECK:START -->Dernière vérification automatique : 18 Sep 2026<!-- LAST-CHECK:END --></sub>
 </div>
