@@ -194,7 +194,7 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 ### ♟️ [RiaChess](https://riachess.com) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > 100% online chess academy: interactive lessons, daily puzzle, games and tournaments between members, live coaching via premium subscription
 
-<img src="./assets/screenshots/riachess.jpg" alt="RiaChess preview" width="600">
+<img src="./assets/screenshots/en/riachess.jpg" alt="RiaChess preview" width="600">
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://riachess.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://riachess.com)
@@ -211,7 +211,7 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 ### 🩻 [Hexray](https://github.com/riadh-mnasri/hexray) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Architecture audit CLI for TypeScript/Kotlin projects · self-contained HTML report with a Claude-generated executive summary
 
-<img src="./assets/screenshots/hexray.jpg" alt="Sample Hexray report" width="600">
+<img src="./assets/screenshots/en/hexray.jpg" alt="Sample Hexray report" width="600">
 <sub>Illustrative example (demo summary and findings, real report structure)</sub>
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/hexray)
@@ -229,7 +229,7 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 ### 🛫 [Tarmac](https://github.com/riadh-mnasri/tarmac) ![Active](https://img.shields.io/badge/🔥-Active-brightgreen?style=flat-square)
 > Visual workshop to build, validate, launch and track Claude Code skills and agents
 
-<img src="./assets/screenshots/tarmac.jpg" alt="Tarmac catalog preview" width="600">
+<img src="./assets/screenshots/en/tarmac.jpg" alt="Tarmac catalog preview" width="600">
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/riadh-mnasri/tarmac)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/riadh-mnasri/tarmac)
@@ -245,20 +245,20 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 
 | Preview | Project | Description | Stack |
 |---|---|---|---|
-| | 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch) | Showcases DDD, Hexagonal, TDD/BDD and Event-driven design for freelance/mission matching | Kotlin · Spring Boot · Angular · Kafka · Terraform |
-| | 📋 [Taskly](https://taskly-frontend-brown.vercel.app) | Gamified task management app for middle schoolers ([demo](https://taskly-frontend-brown.vercel.app)) — ⚠️ demo currently shows a blank page, needs fixing | Kotlin · Spring Boot · Angular · PostgreSQL |
-| <img src="./assets/screenshots/claude-expert.jpg" width="200"> | 🎓 [Claude Expert](https://claude-expert.vercel.app) | Interactive Claude Code training · 12 modules, 144 quiz questions | Next.js · TypeScript · Tailwind |
-| <img src="./assets/screenshots/chesscoach-ai.jpg" width="200"> | ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | AI-powered chess coach · Stockfish analysis and personalized coaching by Claude | Spring Boot · Angular · Claude · Stockfish |
-| | 🐝 [Ruche](https://ruche-zeta.vercel.app) | Weekly household chore schedule with fair-share tracking across family members ([demo](https://ruche-zeta.vercel.app)) | Next.js · TypeScript · Tailwind |
-| <img src="./assets/screenshots/aceready.jpg" width="200"> | 🎯 [AceReady](https://aceready.vercel.app) | Java/Cloud/Data/AI technical interview training, with corrections covering common traps ([demo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
-| | 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Source code of my personal portfolio ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
-| <img src="./assets/screenshots/wehightech.jpg" width="200"> | 🏢 [WeHighTech](https://wehightech.org) | Showcase site for a tech services company (AI, software dev, digital transformation, data & cybersecurity) | Next.js 16 · React 19 · Tailwind CSS 4 |
-| | 📰 [tech-pulse](https://tech-pulse-weld.vercel.app) | Aggregated tech watch (Hacker News, Reddit, GitHub Trending, RSS) with a daily AI-generated digest ([demo](https://tech-pulse-weld.vercel.app)) | Next.js · TypeScript · Claude API |
-| | 🎙️ [talk-reps](https://talk-reps.vercel.app) | Bank of short scripts to practice speaking in front of a camera or mic, fully local browser recording ([demo](https://talk-reps.vercel.app)) | Next.js · TypeScript · MediaRecorder |
+| <img src="./assets/screenshots/en/missionmatch.jpg" alt="MissionMatch dashboard" width="200"> | 🧩 [MissionMatch](https://github.com/riadh-mnasri/missionmatch) | Showcases DDD, Hexagonal, TDD/BDD and Event-driven design for freelance/mission matching | Kotlin · Spring Boot · Angular · Kafka · Terraform |
+| <img src="./assets/screenshots/en/taskly.jpg" alt="Taskly Kanban board" width="200"> | 📋 [Taskly](https://taskly-frontend-brown.vercel.app) | Gamified task management app for middle schoolers ([demo](https://taskly-frontend-brown.vercel.app)) · ⚠️ live demo currently blank, screenshot taken from a local run | Kotlin · Spring Boot · Angular · PostgreSQL |
+| <img src="./assets/screenshots/claude-expert.jpg" width="200"> | 🎓 [Claude Expert](https://claude-expert.vercel.app) | Interactive Claude Code training · 12 modules, 144 quiz questions (French UI) | Next.js · TypeScript · Tailwind |
+| <img src="./assets/screenshots/chesscoach-ai.jpg" width="200"> | ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | AI-powered chess coach · Stockfish analysis and personalized coaching by Claude (French UI) | Spring Boot · Angular · Claude · Stockfish |
+| <img src="./assets/screenshots/en/ruche.jpg" alt="Ruche weekly schedule" width="200"> | 🐝 [Ruche](https://ruche-zeta.vercel.app) | Weekly household chore schedule with fair-share tracking across family members ([demo](https://ruche-zeta.vercel.app)) | Next.js · TypeScript · Tailwind |
+| <img src="./assets/screenshots/en/aceready.jpg" alt="AceReady home" width="200"> | 🎯 [AceReady](https://aceready.vercel.app) | Java/Cloud/Data/AI technical interview training, with corrections covering common traps ([demo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
+| <img src="./assets/screenshots/en/portfolio.jpg" alt="Portfolio home" width="200"> | 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Source code of my personal portfolio ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
+| <img src="./assets/screenshots/en/wehightech.jpg" alt="WeHighTech home" width="200"> | 🏢 [WeHighTech](https://wehightech.org) | Showcase site for a tech services company (AI, software dev, digital transformation, data & cybersecurity) | Next.js 16 · React 19 · Tailwind CSS 4 |
+| <img src="./assets/screenshots/en/tech-pulse.jpg" alt="tech-pulse news feed" width="200"> | 📰 [tech-pulse](https://tech-pulse-weld.vercel.app) | Aggregated tech watch (Hacker News, Reddit, GitHub Trending, RSS) with a daily AI-generated digest ([demo](https://tech-pulse-weld.vercel.app)) | Next.js · TypeScript · Claude API |
+| <img src="./assets/screenshots/en/talk-reps.jpg" alt="talk-reps script bank" width="200"> | 🎙️ [talk-reps](https://talk-reps.vercel.app) | Bank of short scripts to practice speaking in front of a camera or mic, fully local browser recording ([demo](https://talk-reps.vercel.app)) | Next.js · TypeScript · MediaRecorder |
 | | 🏫 [ecoledirecte-mcp](https://github.com/riadh-mnasri/ecoledirecte-mcp) | MCP server to query an EcoleDirecte account (grades, homework, absences, messages) from Claude, locally, credentials never shared | TypeScript · MCP |
 | | ♞ [ffe-mcp](https://github.com/riadh-mnasri/ffe-mcp) | MCP server to query French Chess Federation public data (players, tournaments, standings) from Claude | TypeScript · MCP |
-| | 🏅 [SkillCert AI](https://skillcert-ai-eight.vercel.app) | AI certification prep (Anthropic, OpenAI, AWS, GCP, Azure): courses, cheat sheets, quizzes and mock exams, FR/EN ([demo](https://skillcert-ai-eight.vercel.app)) | Next.js · TypeScript · Tailwind |
-| | 🎁 [code-wrapped](https://code-wrapped-rm.vercel.app) | My year in code, Spotify Wrapped style: scans local git repos and renders 10 shareable cards with PNG export ([demo](https://code-wrapped-rm.vercel.app)) | Next.js · TypeScript · Tailwind |
+| <img src="./assets/screenshots/en/skillcert-ai.jpg" alt="SkillCert AI home" width="200"> | 🏅 [SkillCert AI](https://skillcert-ai-eight.vercel.app) | AI certification prep (Anthropic, OpenAI, AWS, GCP, Azure): courses, cheat sheets, quizzes and mock exams, FR/EN ([demo](https://skillcert-ai-eight.vercel.app)) | Next.js · TypeScript · Tailwind |
+| <img src="./assets/screenshots/en/code-wrapped.jpg" alt="code-wrapped card" width="200"> | 🎁 [code-wrapped](https://code-wrapped-rm.vercel.app) | My year in code, Spotify Wrapped style: scans local git repos and renders 10 shareable cards with PNG export ([demo](https://code-wrapped-rm.vercel.app)) | Next.js · TypeScript · Tailwind |
 
 ---
 
