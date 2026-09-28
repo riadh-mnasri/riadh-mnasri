@@ -2,9 +2,9 @@
 
 🇫🇷 **Français** · [🇬🇧 English](README.en.md)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Senior+Tech+Lead+%26+Architect+Java;20%2B+ans+d'exp%C3%A9rience;Spring+Boot+%C2%B7+Kotlin+%C2%B7+Microservices;AI+%26+Cloud+%7C+Claude+%C2%B7+AWS+%C2%B7+GCP;Open+to+missions+%F0%9F%9F%A2)](https://linkedin.com/in/riadhmnasri)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Senior+Tech+Lead+%26+Architect+Java;20%2B+ans+d'exp%C3%A9rience;Spring+Boot+%C2%B7+Kotlin+%C2%B7+Microservices;AI+%26+Cloud+%7C+Claude+%C2%B7+AWS+%C2%B7+Azure+%C2%B7+GCP;Open+to+missions+%F0%9F%9F%A2)](https://linkedin.com/in/riadhmnasri)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-7k%2B_followers-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-7.7k%2B_followers-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/riadhmnasri)
 [![Portfolio](https://img.shields.io/badge/Portfolio-riadh--mnasri.pro-black?style=flat-square&logo=vercel&logoColor=white)](https://www.riadh-mnasri.pro)
 [![Blog](https://img.shields.io/badge/Blog-riadhmnasri.fr-orange?style=flat-square&logo=rss&logoColor=white)](https://www.riadhmnasri.fr)
 [![Available](https://img.shields.io/badge/🟢_Disponible-Open%20to%20missions-brightgreen?style=flat-square)](https://linkedin.com/in/riadhmnasri)
@@ -46,6 +46,9 @@ Missions freelance délivrées via [WeHighTech](https://wehightech.org) (sociét
 | Mar 2022 – Fév 2024 | GRTgaz | Technical Leader Fullstack Java Angular AWS Terraform |
 | Jan 2021 – Mar 2022 | Groupe Casino | Lead Backend Developer Java Kotlin GCP |
 | Jun 2020 – Jan 2021 | Ministère de la Justice | Technical Leader Full Stack |
+| Jan 2020 – Jun 2020 | Galeries Lafayette | Technical Leader Java Kotlin |
+| Jan 2017 – Jan 2020 | Enedis | Senior Software Developer |
+| Déc 2012 – Déc 2016 | BforBank | Java JEE Architect / Lead Developer (CDI) |
 
 <sub>Historique complet et détails de mission → [portfolio](https://www.riadh-mnasri.pro)</sub>
 
@@ -59,6 +62,8 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 - **En mission** : intégration de Claude/Copilot dans le cycle de dev (SGCIB : ~+30% de vélocité), et chez Cartan Trade construction de modèles de risque de crédit assistés par les APIs Claude
 - **[Tarmac](https://github.com/riadh-mnasri/tarmac)** : atelier que j'ai construit pour éditer, valider et lancer mes propres skills/agents Claude Code, avec streaming des résultats et historique des runs
 - **[Hexray](https://github.com/riadh-mnasri/hexray)** : CLI d'audit d'architecture où Claude synthétise les findings bruts en résumé exécutif lisible par un client
+- **Serveurs MCP maison** : [ecoledirecte-mcp](https://github.com/riadh-mnasri/ecoledirecte-mcp) (notes, devoirs et absences de mes enfants) et [ffe-mcp](https://github.com/riadh-mnasri/ffe-mcp) (tournois d'échecs homologués FFE), pour interroger directement depuis Claude des sites qui n'exposent aucune API publique
+- **Spec-Driven Development** : avant toute génération de code, Claude pose des questions pour clarifier le besoin, puis les specs vivent dans des fichiers Markdown qui pilotent le travail des agents
 - **Outillage perso** : une trentaine de skills Claude Code maison (revue de code, veille dépendances/sécurité, suivi de déploiements) qui pilotent mon propre portefeuille de projets au quotidien
 
 ---
@@ -77,6 +82,7 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 ### Architecture & Messaging
 ![Microservices](https://img.shields.io/badge/Microservices-DDD%20%7C%20Hexagonal-0081CB?style=flat-square)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-Event--driven-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-Big_Data-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![REST](https://img.shields.io/badge/REST-OpenAPI%203-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 
 ### Frontend
@@ -87,7 +93,7 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 
 ### AI & Agents
 ![Claude AI](https://img.shields.io/badge/Claude_AI-Sonnet_5-8B5CF6?style=flat-square)
-![Claude Code](https://img.shields.io/badge/Claude_Code-MCP%20%7C%20Hooks-8B5CF6?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-MCP%20%7C%20Hooks%20%7C%20Skills-8B5CF6?style=flat-square)
 ![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-Microsoft-5E5E5E?style=flat-square&logo=microsoft)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -98,6 +104,8 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-AKS-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=flat-square&logo=vercel&logoColor=white)
@@ -247,6 +255,10 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 | <img src="./assets/screenshots/wehightech.jpg" width="200"> | 🏢 [WeHighTech](https://wehightech.org) | Site vitrine d'une société de services technologiques (IA, dev logiciel, transformation digitale, data & cybersécurité) | Next.js 16 · React 19 · Tailwind CSS 4 |
 | | 📰 [tech-pulse](https://tech-pulse-weld.vercel.app) | Veille technologique agrégée (Hacker News, Reddit, GitHub Trending, RSS) avec résumé quotidien par IA ([démo](https://tech-pulse-weld.vercel.app)) | Next.js · TypeScript · Claude API |
 | | 🎙️ [talk-reps](https://talk-reps.vercel.app) | Banque de scripts courts pour s'entraîner à parler devant caméra/micro, enregistrement 100% local ([démo](https://talk-reps.vercel.app)) | Next.js · TypeScript · MediaRecorder |
+| | 🏫 [ecoledirecte-mcp](https://github.com/riadh-mnasri/ecoledirecte-mcp) | Serveur MCP pour interroger un compte EcoleDirecte (notes, devoirs, absences, messages) depuis Claude, en local, sans partager ses identifiants | TypeScript · MCP |
+| | ♞ [ffe-mcp](https://github.com/riadh-mnasri/ffe-mcp) | Serveur MCP pour interroger les données publiques de la Fédération Française des Échecs (joueurs, tournois, classements) depuis Claude | TypeScript · MCP |
+| | 🏅 [SkillCert AI](https://skillcert-ai-eight.vercel.app) | Préparation aux certifications IA (Anthropic, OpenAI, AWS, GCP, Azure) : cours, fiches, QCM et examens blancs, FR/EN ([démo](https://skillcert-ai-eight.vercel.app)) | Next.js · TypeScript · Tailwind |
+| | 🎁 [code-wrapped](https://code-wrapped-rm.vercel.app) | Mon année de code façon Spotify Wrapped : analyse des repos git locaux et 10 cartes partageables avec export PNG ([démo](https://code-wrapped-rm.vercel.app)) | Next.js · TypeScript · Tailwind |
 
 ---
 
@@ -256,10 +268,11 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 <sub>Mis à jour manuellement via [GitHub Action](.github/workflows/linkedin-posts.yml) (pas de flux RSS public LinkedIn)</sub>
 
 <!-- LINKEDIN-POSTS:START -->
+- [Spec-Driven Development : clarifier le besoin avec Claude avant de générer la moindre ligne de code](https://www.linkedin.com/feed/update/urn:li:activity:7510411774932742145/) · 28 Sep 2026
+- [J'ai construit deux serveurs MCP pour mon usage personnel : EcoleDirecte et tournois FFE](https://www.linkedin.com/feed/update/urn:li:activity:7504272630229708801/) · 11 Sep 2026
 - [J'ai fini de lire le livre "Agentic Coding with Claude Code" d'Eden Marco](https://www.linkedin.com/posts/riadhmnasri_claude-ai-sdd-activity-7498082902639841282-NUAd) · 26 Aug 2026
-- [Après plus de 20 ans de développement, je ne pensais pas qu'un assistant IA allait encore me faire évoluer dans ma façon](https://www.linkedin.com/posts/riadhmnasri_apr%C3%A8s-plus-de-20-ans-de-d%C3%A9veloppement-je-activity-7484726238239068160-JU5W) · 19 Jul 2026
-- 🔗 [Le métier de développeur évolue à vitesse grand V, et la transition vers le…](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937-yTKq) · *28 May 2026*
-- 🔗 [On parle beaucoup d'agents Claude en ce moment, mais on confond souvent quatre…](https://www.linkedin.com/posts/riadhmnasri_llm-claude-agent-activity-7462241443160428544-RraE) · *28 May 2026*
+- [Après plus de 20 ans de développement, je ne pensais pas qu'un assistant IA allait encore me faire évoluer dans ma façon de travailler](https://www.linkedin.com/posts/riadhmnasri_apr%C3%A8s-plus-de-20-ans-de-d%C3%A9veloppement-je-activity-7484726238239068160-JU5W) · 19 Jul 2026
+- [Le métier de développeur évolue à vitesse grand V, et la transition vers le…](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937-yTKq) · 28 May 2026
 <!-- LINKEDIN-POSTS:END -->
 
 ---
