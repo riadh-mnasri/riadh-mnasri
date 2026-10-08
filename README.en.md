@@ -353,5 +353,5 @@ Available for **Tech Lead Java / Architect** missions, remote / hybrid.
 <div align="center">
   <i>Built with ❤️ by Riadh MNASRI</i>
   <br>
-  <sub><!-- LAST-CHECK:START -->Last automated check: 07 Oct 2026<!-- LAST-CHECK:END --></sub>
+  <sub><!-- LAST-CHECK:START -->Last automated check: 08 Oct 2026<!-- LAST-CHECK:END --></sub>
 </div>
