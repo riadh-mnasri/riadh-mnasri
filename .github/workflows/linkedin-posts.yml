@@ -21,49 +21,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prepend post to README
+      - name: Prepend post to both READMEs
+        env:
+          POST_TITLE: ${{ inputs.title }}
+          POST_URL: ${{ inputs.url }}
         run: |
           python3 << 'EOF'
-          import re
-          from datetime import datetime
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
 
-          title = """${{ github.event.inputs.title }}"""[:120].strip()
-          url   = """${{ github.event.inputs.url }}""".strip()
-          today = datetime.utcnow().strftime("%d %b %Y")
-
+          title = os.environ["POST_TITLE"][:120].strip()
+          url = os.environ["POST_URL"].strip()
+          today = datetime.now(timezone.utc).strftime("%d %b %Y")
           new_entry = f"- [{title}]({url}) · {today}"
 
-          with open("README.md", "r", encoding="utf-8") as f:
-              content = f.read()
+          start = "<!-- LINKEDIN-POSTS:START -->\n"
+          end = "<!-- LINKEDIN-POSTS:END -->"
+          french = Path("README.md")
+          english = Path("README.en.md")
+          french_before, french_tail = french.read_text(encoding="utf-8").split(start, 1)
+          existing, french_after = french_tail.split(end, 1)
+          english_before, english_tail = english.read_text(encoding="utf-8").split(start, 1)
+          _, english_after = english_tail.split(end, 1)
 
-          # Extract current posts between markers
-          match = re.search(
-              r"<!-- LINKEDIN-POSTS:START -->\n(.*?)<!-- LINKEDIN-POSTS:END -->",
-              content, re.DOTALL
-          )
+          entries = [line for line in existing.splitlines() if line.startswith("- ")]
+          entries = [line for line in entries if f"]({url}) · " not in line]
+          section = start + "\n".join([new_entry, *entries[:4]]) + "\n" + end
 
-          existing = match.group(1).strip() if match else ""
-
-          # Remove placeholder text if present
-          if "s'afficheront ici" in existing:
-              existing = ""
-
-          # Keep only last 4 posts + the new one = 5 max
-          lines = [l for l in existing.splitlines() if l.strip().startswith("-")][:4]
-          all_posts = "\n".join([new_entry] + lines)
-
-          new_section = f"<!-- LINKEDIN-POSTS:START -->\n{all_posts}\n<!-- LINKEDIN-POSTS:END -->"
-
-          updated = re.sub(
-              r"<!-- LINKEDIN-POSTS:START -->.*?<!-- LINKEDIN-POSTS:END -->",
-              new_section,
-              content,
-              flags=re.DOTALL
-          )
-
-          with open("README.md", "w", encoding="utf-8") as f:
-              f.write(updated)
-
+          french.write_text(french_before + section + french_after, encoding="utf-8")
+          english.write_text(english_before + section + english_after, encoding="utf-8")
           print(f"Added: {new_entry}")
           EOF
 
@@ -72,7 +59,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet && echo "Nothing to commit." && exit 0
-          git add README.md
+          git add README.md README.en.md
           git commit -m "post: add LinkedIn post [$(date +'%Y-%m-%d')]"
           git pull --rebase origin main
           git push

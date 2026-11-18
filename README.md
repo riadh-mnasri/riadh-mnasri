@@ -50,6 +50,14 @@ Missions freelance délivrées via [WeHighTech](https://wehightech.org) (sociét
 | Jan 2017 – Jan 2020 | Enedis | Senior Software Developer |
 | Déc 2012 – Déc 2016 | BforBank | Java JEE Architect / Lead Developer (CDI) |
 
+### Cartan Trade · Senior Tech Lead & Architect
+
+- Architecture full-stack de la plateforme de gestion du risque en assurance-crédit, développée en Kotlin sur Google Cloud Platform (GCP).
+- Traduction des règles métier et conception de modèles de calcul du risque de défaut avec les équipes métier et techniques.
+- Intégration des API Claude pour assister l’évaluation du risque et automatiser des étapes du processus de décision.
+
+<sub>[Profil LinkedIn](https://fr.linkedin.com/in/riadhmnasri) · [Détails de la mission](https://riadh-mnasri.pro/)</sub>
+
 <sub>Historique complet et détails de mission → [portfolio](https://www.riadh-mnasri.pro)</sub>
 
 ---
@@ -268,11 +276,11 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 <sub>Mis à jour manuellement via [GitHub Action](.github/workflows/linkedin-posts.yml) (pas de flux RSS public LinkedIn)</sub>
 
 <!-- LINKEDIN-POSTS:START -->
+- [Guide pratique pour créer et mettre en production des agents Claude](https://fr.linkedin.com/posts/riadhmnasri_claude-agent-llm-activity-7521693885966876672-zjxT) · 29 Oct 2026
 - [Spec-Driven Development : clarifier le besoin avec Claude avant de générer la moindre ligne de code](https://www.linkedin.com/feed/update/urn:li:activity:7510411774932742145/) · 28 Sep 2026
 - [J'ai construit deux serveurs MCP pour mon usage personnel : EcoleDirecte et tournois FFE](https://www.linkedin.com/feed/update/urn:li:activity:7504272630229708801/) · 11 Sep 2026
 - [J'ai fini de lire le livre "Agentic Coding with Claude Code" d'Eden Marco](https://www.linkedin.com/posts/riadhmnasri_claude-ai-sdd-activity-7498082902639841282-NUAd) · 26 Aug 2026
 - [Après plus de 20 ans de développement, je ne pensais pas qu'un assistant IA allait encore me faire évoluer dans ma façon de travailler](https://www.linkedin.com/posts/riadhmnasri_apr%C3%A8s-plus-de-20-ans-de-d%C3%A9veloppement-je-activity-7484726238239068160-JU5W) · 19 Jul 2026
-- [Le métier de développeur évolue à vitesse grand V, et la transition vers le…](https://www.linkedin.com/posts/riadhmnasri_claudecode-anthropic-generativeai-activity-7462555144409255937-yTKq) · 28 May 2026
 <!-- LINKEDIN-POSTS:END -->
 
 ---
