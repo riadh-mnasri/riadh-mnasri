@@ -70,6 +70,8 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 - **En mission** : intégration de Claude/Copilot dans le cycle de dev (SGCIB : ~+30% de vélocité), et chez Cartan Trade construction de modèles de risque de crédit assistés par les APIs Claude
 - **[Tarmac](https://github.com/riadh-mnasri/tarmac)** : atelier que j'ai construit pour éditer, valider et lancer mes propres skills/agents Claude Code, avec streaming des résultats et historique des runs
 - **[Hexray](https://github.com/riadh-mnasri/hexray)** : CLI d'audit d'architecture où Claude synthétise les findings bruts en résumé exécutif lisible par un client
+- **[terraform-change-review](https://github.com/riadh-mnasri/terraform-change-review)** : revue de plans Terraform en Kotlin avec le SDK MCP Java officiel. Des règles déterministes produisent les findings, Claude les explique via des outils MCP en lecture seule, et les mêmes règles tournent sans LLM en CI
+- **[Claude Agentic Handbook](https://github.com/riadh-mnasri/claude-agentic-handbook)** : guide de référence en 15 chapitres pour construire des agents Claude, de la première requête API à la production, avec des exemples exécutables et testés en Python, TypeScript et Kotlin
 - **Serveurs MCP maison** : [ecoledirecte-mcp](https://github.com/riadh-mnasri/ecoledirecte-mcp) (notes, devoirs et absences de mes enfants) et [ffe-mcp](https://github.com/riadh-mnasri/ffe-mcp) (tournois d'échecs homologués FFE), pour interroger directement depuis Claude des sites qui n'exposent aucune API publique
 - **Spec-Driven Development** : avant toute génération de code, Claude pose des questions pour clarifier le besoin, puis les specs vivent dans des fichiers Markdown qui pilotent le travail des agents
 - **Outillage perso** : une trentaine de skills Claude Code maison (revue de code, veille dépendances/sécurité, suivi de déploiements) qui pilotent mon propre portefeuille de projets au quotidien
@@ -249,6 +251,22 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 
 ---
 
+### 🧾 [terraform-change-review](https://github.com/riadh-mnasri/terraform-change-review) ![Nouveau](https://img.shields.io/badge/🆕-Nouveau-blue?style=flat-square)
+> Revue de plans Terraform fondée sur des preuves, pour Claude Code et la CI
+
+[![CI](https://github.com/riadh-mnasri/terraform-change-review/actions/workflows/ci.yml/badge.svg)](https://github.com/riadh-mnasri/terraform-change-review/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/badge/release-v0.1.0-blue?style=flat-square)](https://github.com/riadh-mnasri/terraform-change-review/releases/tag/v0.1.0)
+[![Kotlin](https://img.shields.io/badge/Kotlin-JVM-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/riadh-mnasri/terraform-change-review)
+[![Terraform](https://img.shields.io/badge/Terraform-plan_review-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/riadh-mnasri/terraform-change-review)
+[![MCP](https://img.shields.io/badge/Claude_Code-MCP-8B5CF6?style=flat-square)](https://github.com/riadh-mnasri/terraform-change-review)
+
+- Transforme un plan Terraform local en revue déterministe : chaque finding indique la règle, la ressource, la sévérité, la preuve avant/après et la vérification à faire ensuite
+- Repère ce qui mérite l'attention du relecteur (remplacement de ressource, règle firewall élargie, rôle sensible, mécanisme de récupération désactivé), avec des checks spécialisés sur Google Cloud
+- Outils MCP en lecture seule pour que Claude explique les findings, sans jamais pouvoir appliquer de changement ; en CI, un seuil de sévérité fait échouer le build
+- Release v0.1.0 (JAR et checksums), wiki, GitHub Discussions, publication Maven Central préparée
+
+---
+
 ### Autres projets
 
 | Aperçu | Projet | Description | Stack |
@@ -267,6 +285,9 @@ Pas juste des badges : voici comment l'IA générative s'intègre concrètement 
 | | ♞ [ffe-mcp](https://github.com/riadh-mnasri/ffe-mcp) | Serveur MCP pour interroger les données publiques de la Fédération Française des Échecs (joueurs, tournois, classements) depuis Claude | TypeScript · MCP |
 | <img src="./assets/screenshots/skillcert-ai.jpg" alt="Accueil SkillCert AI" width="200"> | 🏅 [SkillCert AI](https://skillcert-ai-eight.vercel.app) | Préparation aux certifications IA (Anthropic, OpenAI, AWS, GCP, Azure) : cours, fiches, QCM et examens blancs, FR/EN ([démo](https://skillcert-ai-eight.vercel.app)) | Next.js · TypeScript · Tailwind |
 | <img src="./assets/screenshots/code-wrapped.jpg" alt="Carte code-wrapped" width="200"> | 🎁 [code-wrapped](https://code-wrapped-rm.vercel.app) | Mon année de code façon Spotify Wrapped : analyse des repos git locaux et 10 cartes partageables avec export PNG ([démo](https://code-wrapped-rm.vercel.app)) | Next.js · TypeScript · Tailwind |
+| | 📘 [Claude Agentic Handbook](https://github.com/riadh-mnasri/claude-agentic-handbook) | Guide de référence des agents Claude et des workflows agentiques : 15 chapitres et 14 exemples exécutables, testés hors ligne sans clé API | Python · TypeScript · Kotlin · MCP |
+| | 🦀 [RustPrimer](https://rust-primer.vercel.app) | Parcours bilingue pour apprendre Rust en construisant [riskforge](https://github.com/riadh-mnasri/riskforge), un moteur Monte Carlo de risque de contrepartie (EE, PFE, EPE, CVA) ([démo](https://rust-primer.vercel.app)) | Rust · Next.js · TypeScript |
+| | 🥋 [coding-dojo-katas](https://github.com/riadh-mnasri/coding-dojo-katas) | Les 61 katas de codingdojo.org résolus en Kotlin en TDD strict : un commit par étape rouge/vert/refactor, historique vérifié par la CI | Kotlin · JUnit 5 |
 
 ---
 
