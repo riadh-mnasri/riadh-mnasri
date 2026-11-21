@@ -106,7 +106,7 @@ def mentioned(repo, text):
 def clean(text, lang):
     text = text.replace("|", "/").replace("\n", " ").strip()
     sep = " : " if lang == "fr" else ": "
-    text = re.sub(r"\s*[—–]\s*", sep, text)
+    text = re.sub(r"\s*[\u2014\u2013]\s*", sep, text)
     return re.sub(r"\s{2,}", " ", text)
 
 
