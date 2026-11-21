@@ -1,0 +1,60 @@
+name: Update CV projects
+
+on:
+  schedule:
+    - cron: "0 7 * * 1" # tous les lundis à 07:00 UTC
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Repos créés depuis (AAAA-MM-JJ), vide = valeur de cv-config.json"
+        required: false
+        type: string
+
+jobs:
+  update-cv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check API key
+        id: key
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::warning::Secret ANTHROPIC_API_KEY absent, mise à jour du CV ignorée."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.key.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Draft new project rows
+        id: cv
+        if: steps.key.outputs.ok == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SINCE: ${{ inputs.since }}
+        run: |
+          pip install --quiet anthropic
+          python .github/scripts/update_cv.py ${SINCE:+--since "$SINCE"}
+
+      - name: Commit & push
+        if: steps.cv.outputs.added != ''
+        env:
+          ADDED: ${{ steps.cv.outputs.added }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md README.en.md
+          git commit -m "docs(readme): add new projects ($ADDED)"
+          git pull --rebase origin main
+          git push
