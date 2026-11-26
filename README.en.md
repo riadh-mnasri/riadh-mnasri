@@ -17,7 +17,7 @@
 
 ## 📑 Table of Contents
 
-[About Me](#about-me) · [Experience](#experience) · [AI in Practice](#ia-en-pratique) · [Tech Stack](#tech-stack) · [Education](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Featured Projects](#featured-projects) · [Recommendations](#recommandations) · [LinkedIn Posts](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
+[About Me](#about-me) · [Experience](#experience) · [AI in Practice](#ia-en-pratique) · [Tech Stack](#tech-stack) · [Education](#formation) · [Certifications](#certifications) · [Open Source Libraries](#open-source-libraries) · [Open-source learning resources](#open-source-learning) · [Featured Projects](#featured-projects) · [Recommendations](#recommandations) · [LinkedIn Posts](#posts-linkedin) · [Blog](#blog) · [GitHub Stats](#github-stats) · [Contact](#contact)
 
 ---
 
@@ -198,6 +198,16 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 
 ---
 
+<a id="open-source-learning"></a>
+## 📚 Open-source learning resources
+
+| Project | What it covers | Stack |
+|---|---|---|
+| 📘 [Claude Agentic Handbook](https://github.com/riadh-mnasri/claude-agentic-handbook) | Reference guide to Claude agents and agentic workflows: 15 chapters and 14 runnable examples, tested offline without an API key | Python · TypeScript · Kotlin · MCP |
+| 🥋 [coding-dojo-katas](https://github.com/riadh-mnasri/coding-dojo-katas) | All 61 codingdojo.org katas solved test-first in Kotlin: one commit per red/green/refactor step, history verified in CI | Kotlin · JUnit 5 |
+
+---
+
 <a id="featured-projects"></a>
 ## 🚀 Featured Projects
 
@@ -263,7 +273,7 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 - Turns a local Terraform plan into a deterministic review: each finding names the rule, resource and severity, shows before/after evidence and suggests the next check
 - Flags what deserves a reviewer's attention (resource replacement, wider firewall source, sensitive role assignment, disabled recovery mechanism), with specialized checks for Google Cloud
 - Read-only MCP tools let Claude explain the findings without ever applying a change; in CI, a severity threshold fails the build
-- v0.1.0 release (JAR and checksums), wiki, GitHub Discussions, Maven Central publication prepared
+- [Download v0.1.0](https://github.com/riadh-mnasri/terraform-change-review/releases/tag/v0.1.0) (JAR and checksums) · [Documentation](https://github.com/riadh-mnasri/terraform-change-review/wiki) · [GitHub Discussions](https://github.com/riadh-mnasri/terraform-change-review/discussions)
 
 ---
 
@@ -277,7 +287,7 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 | <img src="./assets/screenshots/chesscoach-ai.jpg" width="200"> | ♟️ [ChessCoach.ai](https://chesscoach-ai-drab.vercel.app) | AI-powered chess coach · Stockfish analysis and personalized coaching by Claude (French UI) | Spring Boot · Angular · Claude · Stockfish |
 | <img src="./assets/screenshots/en/ruche.jpg" alt="Ruche weekly schedule" width="200"> | 🐝 [Ruche](https://ruche-zeta.vercel.app) | Weekly household chore schedule with fair-share tracking across family members ([demo](https://ruche-zeta.vercel.app)) | Next.js · TypeScript · Tailwind |
 | <img src="./assets/screenshots/en/aceready.jpg" alt="AceReady home" width="200"> | 🎯 [AceReady](https://aceready.vercel.app) | Java/Cloud/Data/AI technical interview training, with corrections covering common traps ([demo](https://aceready.vercel.app)) | Next.js · TypeScript · Tailwind |
-| <img src="./assets/screenshots/en/portfolio.jpg" alt="Portfolio home" width="200"> | 🌐 [my-portfolio](https://github.com/riadh-mnasri/my-portfolio) | Source code of my personal portfolio ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 15 · Framer Motion |
+| <img src="./assets/screenshots/en/portfolio.jpg" alt="Portfolio home" width="200"> | 🌐 [my-portfolio](https://github.com/riadh-mnasri/riadh-mnasri-portfolio) | Source code of my personal portfolio ([riadh-mnasri.pro](https://www.riadh-mnasri.pro)) | Next.js 16 · Framer Motion |
 | <img src="./assets/screenshots/en/wehightech.jpg" alt="WeHighTech home" width="200"> | 🏢 [WeHighTech](https://wehightech.org) | Showcase site for a tech services company (AI, software dev, digital transformation, data & cybersecurity) | Next.js 16 · React 19 · Tailwind CSS 4 |
 | <img src="./assets/screenshots/en/tech-pulse.jpg" alt="tech-pulse news feed" width="200"> | 📰 [tech-pulse](https://tech-pulse-weld.vercel.app) | Aggregated tech watch (Hacker News, Reddit, GitHub Trending, RSS) with a daily AI-generated digest ([demo](https://tech-pulse-weld.vercel.app)) | Next.js · TypeScript · Claude API |
 | <img src="./assets/screenshots/en/talk-reps.jpg" alt="talk-reps script bank" width="200"> | 🎙️ [talk-reps](https://talk-reps.vercel.app) | Bank of short scripts to practice speaking in front of a camera or mic, fully local browser recording ([demo](https://talk-reps.vercel.app)) | Next.js · TypeScript · MediaRecorder |
@@ -285,9 +295,7 @@ Not just badges: here's how generative AI actually fits into my day-to-day work.
 | | ♞ [ffe-mcp](https://github.com/riadh-mnasri/ffe-mcp) | MCP server to query French Chess Federation public data (players, tournaments, standings) from Claude | TypeScript · MCP |
 | <img src="./assets/screenshots/en/skillcert-ai.jpg" alt="SkillCert AI home" width="200"> | 🏅 [SkillCert AI](https://skillcert-ai-eight.vercel.app) | AI certification prep (Anthropic, OpenAI, AWS, GCP, Azure): courses, cheat sheets, quizzes and mock exams, FR/EN ([demo](https://skillcert-ai-eight.vercel.app)) | Next.js · TypeScript · Tailwind |
 | <img src="./assets/screenshots/en/code-wrapped.jpg" alt="code-wrapped card" width="200"> | 🎁 [code-wrapped](https://code-wrapped-rm.vercel.app) | My year in code, Spotify Wrapped style: scans local git repos and renders 10 shareable cards with PNG export ([demo](https://code-wrapped-rm.vercel.app)) | Next.js · TypeScript · Tailwind |
-| | 📘 [Claude Agentic Handbook](https://github.com/riadh-mnasri/claude-agentic-handbook) | Reference guide to Claude agents and agentic workflows: 15 chapters and 14 runnable examples, tested offline without an API key | Python · TypeScript · Kotlin · MCP |
-| | 🦀 [RustPrimer](https://rust-primer.vercel.app) | Bilingual course to learn Rust by building [riskforge](https://github.com/riadh-mnasri/riskforge), a Monte Carlo counterparty risk engine (EE, PFE, EPE, CVA) ([demo](https://rust-primer.vercel.app)) | Rust · Next.js · TypeScript |
-| | 🥋 [coding-dojo-katas](https://github.com/riadh-mnasri/coding-dojo-katas) | All 61 codingdojo.org katas solved test-first in Kotlin: one commit per red/green/refactor step, history verified in CI | Kotlin · JUnit 5 |
+| | 🦀 [RustPrimer](https://rust-primer.vercel.app) | Bilingual course to learn Rust by building [riskforge](https://github.com/riadh-mnasri/riskforge), an exercise repository for building a Monte Carlo counterparty risk engine ([demo](https://rust-primer.vercel.app)) | Rust · Next.js · TypeScript |
 
 ---
 
@@ -382,5 +390,5 @@ Available for **Tech Lead Java / Architect** missions, remote / hybrid.
 <div align="center">
   <i>Built with ❤️ by Riadh MNASRI</i>
   <br>
-  <sub><!-- LAST-CHECK:START -->Last automated check: 26 Nov 2026<!-- LAST-CHECK:END --></sub>
+  <sub><!-- LAST-CHECK:START -->Last automated check: 21 Nov 2026<!-- LAST-CHECK:END --></sub>
 </div>
